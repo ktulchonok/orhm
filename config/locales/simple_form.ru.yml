@@ -1,0 +1,33 @@
+ru:
+  simple_form:
+    "yes": 'Да'
+    "no": 'Нет'
+    required:
+      text: 'обязательный'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      # html: '<abbr title="required">*</abbr>'
+    error_notification:
+      default_message: "Пожалуйста, ознакомьтесь с проблемами ниже:"
+    labels:
+      defaults:
+        first_name: 'Имя'
+        last_name: 'Фамилия'
+        password: 'Пароль'
+        role: ''
+      user:
+        new:
+          email: 'E-mail.'
+        edit:
+          email: 'E-mail.'
+    hints:
+      defaults:
+        username: 'Имя пользователя.'
+        password: 'Никаких специальных символов , пожалуйста.'
+    include_blanks:
+      defaults:
+        age: 'Предпочитаю умолчать'
+    prompts:
+      defaults:
+        age: 'Выберите свой ​​возраст'

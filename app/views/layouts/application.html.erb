@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= content_for?(:title) ? yield(:title) : 'History Odessa' %></title>
+  <meta name="description" content="<%= content_for?(:description) ? yield(:description) : 'History Odessa' %>">
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= yield(:head) %>
+</head>
+<body class="<%= controller_name %> <%= action_name %>">
+<header>
+  <%= render 'layouts/header' %>
+</header>
+<%= render 'layouts/navigation' %>
+<div id="content">
+  <div id="wrapper">
+    <%= render 'layouts/messages' %>
+    <div class="col-lg-8 col-xs-8 zero-m-p">
+      <%= yield %>
+    </div>
+    <aside class="col-lg-4 col-xs-4 zero-m-p">
+      <%= render 'layouts/contacts' %>
+      <%= render 'layouts/exposition' %>
+    </aside>
+  </div>
+</div>
+<footer>
+  <%= render 'layouts/footer' %>
+</footer>
+</body>
+</html>

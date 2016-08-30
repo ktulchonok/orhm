@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= content_for?(:title) ? yield(:title) : 'History Odessa' %></title>
+  <meta name="description"
+        content="<%= content_for?(:description) ? yield(:description) : 'History Odessa' %>">
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="<%= controller_name %> <%= action_name %>">
+<div class="container no-padding">
+  <%= render 'mobile/header' %>
+  <%= render 'mobile/carousel' %>
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div role="tab" id="headingOne">
+        <a role="button" data-toggle="collapse"
+           data-parent="#accordion" href="#collapseOne"
+           aria-expanded="false" aria-controls="collapseOne">
+          <div class="row nav-block">
+            <div class="col-xs-6">
+              <%= image_tag 'французские_часы.jpg', alt: 'nothing' %>
+            </div>
+            <div class="col-xs-6">
+              <h4 class="text-center">Информация<br>для посетителей</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <ul class="list-group">
+          <%= link_to contact_mobile_index_path do %>
+              <li class="list-group-item" id="contact"><%= t(:contacts) %></li>
+          <% end %>
+          <%= link_to price_mobile_index_path do %>
+              <li class="list-group-item" id="price">Экскурсии и стоимость билетов</li>
+          <% end %>
+          <%= link_to subscribe_mobile_index_path do %>
+              <li class="list-group-item" id="subscribe"><%= t(:subscribe) %></li>
+          <% end %>
+        </ul>
+        <%= yield(:information) %>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div role="tab" id="headingTwo">
+        <a role="button" data-toggle="collapse"
+           data-parent="#accordion" href="#collapseTwo"
+           aria-expanded="false" aria-controls="collapseTwo">
+          <div class="row nav-block">
+            <div class="col-xs-6">
+              <%= image_tag 'французские_часы.jpg', alt: 'nothing' %>
+            </div>
+            <div class="col-xs-6">
+              <h4 class="text-center"><%= t('about') %></h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <ul class="list-group">
+          <%= link_to history_mobile_index_path(anchor: 'about') do %>
+              <li class="list-group-item" id="history"><%= t(:history) %></li>
+          <% end %>
+          <%= link_to expositions_mobile_index_path, anchor: 'about' do %>
+              <li class="list-group-item" id="expositions">Экспозиции</li>
+          <% end %>
+          <%= link_to branches_mobile_index_path, anchor: 'about' do %>
+              <li class="list-group-item" id="branches">Филиалы музея</li>
+          <% end %>
+        </ul>
+        <a name="about"></a>
+        <%= yield(:about) %>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div role="tab" id="headingThree">
+        <a role="button" data-toggle="collapse"
+           data-parent="#accordion" href="#collapseThree"
+           aria-expanded="false" aria-controls="collapseThree">
+          <div class="row nav-block">
+            <div class="col-xs-6">
+              <%= image_tag 'французские_часы.jpg', alt: 'nothing' %>
+            </div>
+            <div class="col-xs-6">
+              <h4 class="text-center">Выставки<br>и мероприятия</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <ul class="list-group">
+          <li class="list-group-item">Анонсы</li>
+          <li class="list-group-item">Действующие выставки</li>
+        </ul>
+        <%= yield(:events) %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row m-footer">
+    <div class="col-xs-12">
+      <button href="#" class="btn btn-default full">Перейти на полную версию</button>
+    </div>
+  </div>
+</div>
+<script>
+  var current = $("#<%= @expo || action_name %>");
+  current.addClass("current");
+  var collapse = current.parent().parent().parent();
+  collapse.addClass("in");
+  $("#" + collapse.attr('aria-labelledby')).addClass("current");
+</script>
+</body>
+

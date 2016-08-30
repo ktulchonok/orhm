@@ -1,0 +1,45 @@
+<div class="nav">
+  <div class="nav-bar">
+    <div class="nav-menu">
+      <span>|</span>
+      <a id="o_musee" href="#" class="simple">
+        <div id="nav-1">
+          <h4><%= t :about %></h4>
+        </div>
+      </a>
+      <span>|</span>
+      <a id="vustavki" class="simple" href="#">
+        <div id="nav-2">
+          <h4><%= t :exhibitions %></h4>
+        </div>
+      </a>
+      <span>|</span>
+      <a id="posetiteli" class="simple" href="#">
+        <div id="nav-3">
+          <h4><%= t :public %></h4>
+        </div>
+      </a>
+      <span>|</span>
+      <a id="cont" href="contacts.php" class="simple">
+        <div id="nav-4">
+          <h4><%= t :contacts %></h4>
+        </div>
+      </a>
+      <span>|</span>
+    </div>
+    <!--<form name="search" action="#" method="get" class="form-inline form-search pull-right">-->
+      <!--<div class="input-group">-->
+        <!--<label class="sr-only" for="searchInput">Search</label>-->
+        <!--<input class="form-control" id="searchInput" type="text" name="data" placeholder="Поиск">-->
+        <!--<div class="input-group-btn">-->
+          <%= link_to '#' do
+#             image_tag 'search-button-clipart-1.png', size: '22x22'
+          end %>
+        <!--</div>-->
+      <!--</div>-->
+    <!--</form>-->
+  </div>
+</div>
+<div class="dinam">
+  <%= render 'layouts/dinam' %>
+</div>

@@ -1,0 +1,25 @@
+<div class="b-header">
+  <div>
+    <ul>
+      <li><%= link_to_unless I18n.locale == :ua, 'UA', set_language_ukrainian_path %>
+      <li><%= link_to_unless I18n.locale == :ru, 'RU', set_language_russian_path %>
+      <li><%= link_to_unless I18n.locale == :en, 'EN', set_language_english_path %>
+    </ul>
+  </div>
+  <%= link_to root_path do
+    image_tag "head_#{I18n.locale}.jpg", id: 'head'
+  end %>
+  <div>
+    <ul>
+      <li><%= link_to '//facebook.com/Odessa.Regional.History.Museum' do
+        image_tag 'logo_social/FB.png'
+      end %>
+      <li><%= link_to '//vk.com/club26889806' do
+        image_tag 'logo_social/VK.png'
+      end %>
+      <li><%= link_to '//twitter.com/OdHistoryMuseum' do
+        image_tag 'logo_social/Twitter.png'
+      end %>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+<% content_for :information do %>
+    <section class="container">
+  <h4>ЭКСКУРСИИ И СТОИМОСТЬ БИЛЕТОВ</h4>
+  <h4><strong>Одесский<br/>историко-краеведческий музей</strong><br/>(ул. Гаванная, 4)</h4>
+  <div style="overflow-x: auto">
+    <table class="table table-striped">
+      <tr>
+        <td rowspan="2"><strong>ЭКСПОЗИЦИИ</strong></td>
+        <td colspan="2"><strong>Стоимость входного билета</strong></td>
+        <td colspan="2"><strong>Стоимость экскурсии</strong></td>
+      </tr>
+      <tr>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+      </tr>
+      <tr>
+        <td><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </strong></td>
+        <td>265</td>
+        <td>228</td>
+        <td>164</td>
+        <td>128</td>
+      </tr><tr>
+      <td><strong>Adipisci assumenda, atque aut consectetur debitis ducimus esse eum </strong></td>
+      <td>265</td>
+      <td>228</td>
+      <td>164</td>
+      <td>128</td>
+    </tr><tr>
+      <td><strong>facilis illum incidunt inventore magnam necessit</strong></td>
+      <td>265</td>
+      <td>228</td>
+      <td>164</td>
+      <td>128</td>
+    </tr>
+      <% @tickets.each do |t| %>
+          <tr>
+            <td><strong><%= t.name %></strong></td>
+            <td><%= t.enter_adult %></td>
+            <td><%= t.enter_child %></td>
+            <td><%= t.excursion_adult %></td>
+            <td><%= t.excursion_child %></td>
+          </tr>
+      <% end %>
+    </table>
+  </div>
+
+</section>
+<% end %>

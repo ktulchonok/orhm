@@ -1,0 +1,23 @@
+<div id="exposition">
+  <h4 class="title">ВЫСТАВКИ</h4>
+  <div>
+    <h5 class="exposition-title">АНОНСЫ</h5>
+    <ul class="exposition-sp">
+      <% all_expositions.where("start_date > #{Date.today}").order(:start_time).each do |e| %>
+          <li><%= link_to e.title, exposition_path(e), rel: 'popover', data_content: e.address %>
+            <p></p>
+      <% end %>
+      <!--<p>date('d.m.Y', strtotime($date['start_date'])) . " - " . date('d.m.Y', strtotime($date['end_date']))</p>";-->
+    </ul>
+  </div>
+  <div>
+    <h5 class="exposition-title">СЕЙЧАС</h5>
+    <ul class="exposition-sp">
+      <% all_expositions.where("start_date <= #{Date.today} and end_date >= #{Date.today}").order(:start_time).each do |e| %>
+          <li><%= link_to e.title, exposition_path(e), rel: 'popover', data_content: e.address %>
+            <p></p>
+      <% end %>
+      <!--<p>" . date('d.m.Y', strtotime($date['start_date'])) . " - " . date('d.m.Y', strtotime($date['end_date'])) . "</p>";-->
+    </ul>
+  </div>
+</div>

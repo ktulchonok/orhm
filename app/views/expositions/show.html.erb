@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @exposition.title %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @exposition.text %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @exposition.address %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @exposition.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @exposition.end_time %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @exposition.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @exposition.end_date %>
+</p>
+
+<%= link_to 'Edit', edit_exposition_path(@exposition) %> |
+<%= link_to 'Back', expositions_path %>
