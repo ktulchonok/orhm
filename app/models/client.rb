@@ -1,7 +1,10 @@
 class Client < ActiveRecord::Base
-  # TODO: make roles for clients
-  ROLES = [['Посетитель', :guest],
-           ['Журналист', :journalist],
-           ['Коллега по культуре', :col]]
-
+  ROLES = [:guest,
+           :journalist,
+           :colleague]
+  AGES = [:young,
+          :adult,
+          :old]
+  validates :name, :email, :role, presence: true, length: { minimum: 2 }
+  validates :age, presence: true, inclusion: { in: 1..99 }
 end

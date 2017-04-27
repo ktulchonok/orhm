@@ -16,7 +16,6 @@ class MobileController < ApplicationController
   end
 
   def history
-    @style = '$("#collapseTwo").addClass("in");$("#history").addClass("current");'
   end
 
   def excursion

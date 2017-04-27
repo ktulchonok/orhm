@@ -1,0 +1,228 @@
+<style>
+  #dinam_block3 {
+    display: block
+  }
+</style>
+<script>
+    $("#posetiteli").addClass("active");
+    $("#e-3-2").addClass("current");
+</script>
+<div id="news">
+  <h4 class="title">ЭКСКУРСИИ И СТОИМОСТЬ БИЛЕТОВ</h4>
+  <div class="content" style="font-family: Verdana, Arial, Helvetica, sans-serif">
+    <h4 style="margin-bottom: 0"><strong>Одесский историко-краеведческий музей (ОИКМ)</strong></h4>
+    <h6 style="margin: 5px 0"><i style="color: #1383cb;">ул. Гаванная, 4</i></h6>
+    <h6 style="margin: 10px 0 5px">ЭКСПОЗИЦИИ:</h6>
+    <ul>
+      <li>&quot;Старая Одесса&quot;</li>
+      <li>&quot;Оружие из коллекции музея&quot;</li>
+      <li>&quot;Одесса и край в годы Второй мировой войны 1939-1945 гг.&quot;</li>
+      <li>&quot;Одесщина. 1917 – 1941: взгляд сквозь годы&quot;</li>
+      <li>&quot;Пробуждение памяти (Голодомор 1932-1933 гг. на Одесщине)&quot;</li>
+    </ul>
+    <p>
+      Работают с 10.00 до 17.30<br>
+      Касса работает до 17.00<br>
+      Выходные дни - ПОНЕДЕЛЬНИК, ПЯТНИЦА
+    </p>
+
+    <br>
+    <h5 style="margin-bottom: 0">
+      <strong>Экспозиция &quot;Музей &quot;Степова Україна&quot; и Выставочный зал музея</strong></h5>
+    <h6 style="margin: 5px 0"><i style="color: #1383cb;">ул. Ланжероновская, 24-а</i></h6>
+    <p>
+      Работают с 10.00 до 17.30<br>
+      Касса работает до 17.00<br>
+      Выходной день - ПЯТНИЦА
+    </p>
+
+    <br>
+    <h5 style="margin-bottom: 0">
+      <strong>Мемориал героической обороны Одессы (411 береговая батарея) (филиал КУ &quot;ОИКМ&quot;)</strong>
+    </h5>
+    <h6 style="margin: 5px 0"><i style="color: #1383cb;">ул. Дача Ковалевского, 150</i></h6>
+    <p>
+      Работает с 10.00 до 17.30<br>
+      Касса работает до 17.00<br>
+      Выходные дни - ПОНЕДЕЛЬНИК, ПЯТНИЦА
+    </p>
+
+    <h4 style="text-align: center; margin-top: 35px">Стоимость экскурсионного обслуживания</h4>
+    <table class="table table-striped">
+      <tr>
+        <td rowspan="2" class="expo-name"><strong>ЭКСПОЗИЦИИ</strong></td>
+        <td colspan="2"><strong>Стоимость входного билета (грн.)</strong></td>
+        <td colspan="2"><strong>Стоимость экскурсии (грн.)</strong></td>
+      </tr>
+      <tr>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+      </tr>
+      <tr>
+        <td><strong><%= link_to '«Старая Одесса»', old_odessa_path(anchor: 'title') %></td>
+        <td>25.00</td>
+        <td>15.00</td>
+        <td>50.00</td>
+        <td>40.00</td>
+      </tr>
+      <tr>
+        <td>
+          <strong><%= link_to '«Одесса и край в годы Второй мировой войны 1939-1945 гг.»', wwii_path(anchor: 'title') %></strong>
+        </td>
+        <td>25.00</td>
+        <td>15.00</td>
+        <td>50.00</td>
+        <td>40.00</td>
+      </tr>
+      <tr>
+        <td>
+          <strong><%= link_to '«Одесщина. 1917 – 1941: взгляд сквозь годы»', odessa_1917_1941_path(anchor: 'title') %></strong>
+        </td>
+        <td>15.00</td>
+        <td>15.00</td>
+        <td>50.00</td>
+        <td>40.00</td>
+      </tr>
+      <tr>
+        <td><strong><%= link_to '«Оружие из коллекции музея»**', weapons_path(anchor: 'title') %></strong></td>
+        <td>25.00</td>
+        <td>15.00</td>
+        <td>50.00</td>
+        <td>40.00</td>
+      </tr>
+      <tr>
+        <td><strong style="color: black">«Времен связующая нить…» (сквозная экскурсия по музею)</strong></td>
+        <td>40.00</td>
+        <td>30.00</td>
+        <td>110.00</td>
+        <td>80.00</td>
+      </tr>
+      <tr>
+        <td>
+          <strong><%= link_to '«Пробуждение памяти (Голодомор 1932-1933 гг. на Одесщине)»', starvation_path(anchor: 'title') %></strong>
+        </td>
+        <td>вход бесплатный</td>
+        <td>вход бесплатный</td>
+        <td>экскурсия бесплатная</td>
+        <td>экскурсия бесплатная</td>
+      </tr>
+      <% @tickets.each do |t| %>
+          <!--<tr>-->
+          <!--<td><strong><%= t.name %></strong></td>-->
+          <!--<td><%= t.enter_adult %></td>-->
+          <!--<td><%= t.enter_child %></td>-->
+          <!--<td><%= t.excursion_adult %></td>-->
+          <!--<td><%= t.excursion_child %></td>-->
+          <!--</tr>-->
+      <% end %>
+    </table>
+    ** Экскурсионное обслуживание проводится только по предварительной заявке, группа - не более 15 человек
+
+    <h5><strong>Стоимость любительских фотосъемок в залах экспозиций - 30,00 грн.</strong></h5>
+    <h4 style="margin-top: 35px">Музей "Степова Україна" (ул. Ланжероновская, 24-а)</h4>
+    <table class="table table-striped" style="">
+      <tr>
+        <td rowspan="2" class="expo-name"><strong>ЭКСПОЗИЦИИ</strong></td>
+        <td colspan="2"><strong>Стоимость входного билета (грн.)</strong></td>
+        <td colspan="2"><strong>Стоимость экскурсии (грн.)</strong></td>
+      </tr>
+      <tr>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+      </tr>
+      <tr>
+        <td><strong><%= link_to 'Музей «Степова Україна»', step_ukr_path(anchor: 'title') %></strong></td>
+        <td>25.00</td>
+        <td>15.00</td>
+        <td>50.00</td>
+        <td>40.00</td>
+      </tr>
+    </table>
+
+    <h4 style="margin-top: 35px">Выставочный зал музея (ул. Ланжероновская, 24-а)</h4>
+    <table class="table table-striped">
+      <tr>
+        <td rowspan="2" class="expo-name"><strong>ЭКСПОЗИЦИИ</strong></td>
+        <td colspan="2"><strong>Стоимость входного билета (грн.)</strong></td>
+        <td colspan="2"><strong>Стоимость экскурсии (грн.)</strong></td>
+      </tr>
+      <tr>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+      </tr>
+      <tr>
+        <td><strong><%= link_to 'Выставка', showroom_path(anchor: 'title') %></strong></td>
+        <td>15.00</td>
+        <td>15.00</td>
+        <td>50.00</td>
+        <td>40.00</td>
+      </tr>
+    </table>
+
+    <h4 style="margin-top: 35px">Мемориал героической обороны Одессы (411 береговая батарея) (ул. Дача Ковалевского,
+      150)</h4>
+    <table class="table table-striped">
+      <tr>
+        <td rowspan="2" class="expo-name"><strong>ЭКСПОЗИЦИИ</strong></td>
+        <td colspan="2"><strong>Стоимость входного билета (грн.)</strong></td>
+        <td colspan="2"><strong>Стоимость экскурсии (грн.)</strong></td>
+      </tr>
+      <tr>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+        <td>Взрослые</td>
+        <td>Учащиеся</td>
+      </tr>
+      <tr>
+        <td>
+          <strong><%= link_to 'Экспозиция Музея Мемориала героической обороны Одессы', branches_path(anchor: 'title') %>
+            <a href="/"></a></strong></td>
+        <td>25.00</td>
+        <td>15.00</td>
+        <td>40.00</td>
+        <td>40.00</td>
+      </tr>
+      <tr>
+        <td><strong><%= link_to 'Экспозиция под открытым небом на территории Мемориала героической обороны Одессы
+            (при условии заказа экскурсии)', branches_path(anchor: 'title') %></strong></td>
+        <td>25.00</td>
+        <td>15.00</td>
+        <td>40.00</td>
+        <td>40.00</td>
+      </tr>
+    </table>
+
+    <h4 style="text-decoration: underline">Право на бесплатное посещение музея имеют:</h4>
+    <ul>
+      <li>сотрудники музеев Украины (при условии предъявления удостоверения);
+      <li>студенты учебных заведений культуры и искусства (при условии предъявления студенческих билетов);
+      <li>участники военных действий и приравненные к ним лица (в том числе учасники АТО, при условии предъявления
+        удостоверения);
+      <li>дети дошкольного возраста;
+      <li>инвалиды І и ІІ групп (при условии предъявления удостоверения);
+      <li>многодетные семьи (при условии предъявления соответствующего удостоверения);
+      <li>по письму-обращению о бесплатном посещении:
+      <li>
+        <ul>
+          <li>ученики школ-интернатов, лишенные родительской заботы;
+          <li>военнослужащие срочной службы;
+          <li>коллективные посещения вынужденных переселенцев из зоны АТО и Крыма.
+        </ul>
+      </li>
+    </ul>
+
+    <h4 style="text-decoration: underline">Льготную стоимость билета – 15,00 грн. оплачивают:</h4>
+    <ul>
+      <li>ликвидаторы аварии на Чернобыльской АЭС;
+      <li>ученики, студенты;
+      <li>пенсионеры Украины.
+    </ul>
+
+  </div>
+</div>

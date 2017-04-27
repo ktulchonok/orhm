@@ -6,33 +6,37 @@
       <% end %>
     </h4>
     <p>
-      ул. Гаванная, 4
-      <br> +38(048)726-26-08, +38(048)725-52-02
-      <% if Date.today.month.in? (5..9)  %>
-        <br> ежедневно с 10.00 до 17.00, выходной - Пт
+      4, Havanna str.
+      <br>
+      +38(048)726-26-08, +38(048)725-52-02
+      <br>
+      <% if Date.today.month.in?(5..9) %>
+          <a href="/contact#gavana" rel="popover" data-placement="left"
+             data-content="* you can visit only the main exhibition &nbsp; &nbsp; &nbsp; “Old Odessa” until 20.30 and the courtyard of the museum"
+          >* Open daily 10.00-20.30</a>
       <% else %>
-        <br> с 10.00 до 20.30, без выходных<br> касса работает до 20.00
+          Open 10.00-17.30, closed: Friday
       <% end %>
     </p>
     <h4>
-      <%= link_to('/contact', anchor: 'lanzh' ) do %>
-          Музей "Степова Україна",<br> Виставочный зал
+      <%= link_to('/contact', anchor: 'lanzh') do %>
+          Museum “Stepova Ukraine”,<br> Exhibition Hall
       <% end %>
     </h4>
     <p>
-      ул. Ланжероновская, 24-а
+      24a, Lanzheronovskaya str.
       <br> +38(048)726-26-08
-      <br> ежедневно с 10.00 до 17.00, выходной - Пт
+      <br> Open 10.00-17.30, closed: Tuesday, Friday
     </p>
     <h4>
       <%= link_to('/contact', anchor: '411') do %>
-          Мемориал героической обороны Одессы (411 береговая батарея)
+          Memorial of Heroic Defense of Odessa Museum
       <% end %>
     </h4>
     <p>
-      ул. Дача Ковалевского, 150
+      150, Datcha Kovalevskogo str.
       <br> +38(048)726-26-08
-      <br> ежедневно с 10.00 до 17.00, выходной - Пн
+      <br> Open 10.00-17.30, closed: Friday
     </p>
   </div>
 </div>

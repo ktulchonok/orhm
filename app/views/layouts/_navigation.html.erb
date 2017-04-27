@@ -1,45 +1,154 @@
 <div class="nav">
-  <div class="nav-bar">
+  <div class="nav-bar" style="display: flex; justify-content: space-between">
     <div class="nav-menu">
       <span>|</span>
-      <a id="o_musee" href="#" class="simple">
+      <a id="o_musee" class="simple" href="#">
         <div id="nav-1">
-          <h4><%= t :about %></h4>
+          <h4><%= t 'about.title' %></h4>
         </div>
       </a>
       <span>|</span>
       <a id="vustavki" class="simple" href="#">
         <div id="nav-2">
-          <h4><%= t :exhibitions %></h4>
+          <h4><%= t 'exhibitions.title' %></h4>
         </div>
       </a>
       <span>|</span>
       <a id="posetiteli" class="simple" href="#">
         <div id="nav-3">
-          <h4><%= t :public %></h4>
+          <h4><%= t 'public.title' %></h4>
         </div>
       </a>
       <span>|</span>
-      <a id="cont" href="contacts.php" class="simple">
+      <a id="cont" href="/contacts" class="simple">
         <div id="nav-4">
-          <h4><%= t :contacts %></h4>
+          <h4><%= t 'contacts' %></h4>
         </div>
       </a>
       <span>|</span>
     </div>
-    <!--<form name="search" action="#" method="get" class="form-inline form-search pull-right">-->
-      <!--<div class="input-group">-->
-        <!--<label class="sr-only" for="searchInput">Search</label>-->
-        <!--<input class="form-control" id="searchInput" type="text" name="data" placeholder="Поиск">-->
-        <!--<div class="input-group-btn">-->
-          <%= link_to '#' do
-#             image_tag 'search-button-clipart-1.png', size: '22x22'
-          end %>
-        <!--</div>-->
-      <!--</div>-->
-    <!--</form>-->
+    <button class="subscribe"
+            data-toggle="modal" data-target=".bs-example-modal-sm">
+      <i class="fa fa-envelope" style="padding-right: 3px;"></i>
+      <%= t 'subscribe.button' %>
+    </button>
   </div>
 </div>
 <div class="dinam">
-  <%= render 'layouts/dinam' %>
+  <div id="dinam_block1" class="dinam_blocks clearfix">
+    <%= cl_image_tag 'французские_часы.jpg' %>
+    <ul id="dinam_block_sp">
+      <li id="e-1-1"><%= link_to t('about.history'), '/history' %>
+        <!--<a href="history.php">История</a>-->
+      <li id="expo">
+        <a class="" style="cursor: pointer;" onclick="expand('din_expo')"><%= t 'about.expos' %></a>
+      <li id="e-1-3"><%= link_to t('about.branches'), '/branches' %>
+      <li id="edition">
+        <a style="cursor: pointer;" onclick="expand('din_edition')"><%= t 'about.messengers' %></a>
+      <li id="e-1-5"><%= link_to t('about.online'), '/online' %>
+      <li id="e-1-6"><%= link_to t('about.virtual'), '/virtual_tour' %>
+    </ul>
+    <div id="din_expo">
+      <div>
+        <h6><%= t('about.expo.gavana') %></h6>
+        <div style="text-align: left !important;">
+          <ul>
+            <li id="expo-1"><a href="/old_odessa">"<%= t('about.expo.old_odessa') %>"</a>
+            <li id="expo-2"><a href="/weapons">"<%= t('about.expo.weapons') %>"</a>
+            <li id="expo-3"><a href="/wwii">"<%= t('about.expo.wwii') %>"</a>
+            <li id="expo-4"><a href="/odessa_1917_1941">"<%= t('about.expo.odessa_1917_1941') %>"</a>
+            <li id="expo-5"><a href="/starvation">"<%= t('about.expo.starvation') %>"</a>
+          </ul>
+        </div>
+
+      </div>
+      <div>
+        <h6 style="font-family: serif;"><%= t('about.expo.lanzh') %></h6>
+        <div>
+          <ul>
+            <li id="expo-6"><a href="/step_ukr"><%= t('about.expo.step_ukr') %>"</a>
+            <li id="expo-7"><a href="/showroom"><%= t('about.expo.showroom') %></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="din_edition" style="display:none;">
+      <div>
+        <ul>
+          <% all_messengers.each do |m| %>
+              <li id='v-<%= m.id %>'><%= link_to "Вестник № #{m.id}", messenger_path({id: m.id}) %>
+                <%= '</ul></div><div><ul>'.html_safe if m.id % 5 == 0 %>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="dinam_block2" class="dinam_blocks clearfix">
+    <%= cl_image_tag 'французские_часы.jpg' %>
+    <ul id="dinam_block_sp">
+      <li id="e-2-1"><a href="/expositions/anons"><%= t 'exhibitions.anons' %></a>
+      <li id="e-2-2"><a href="/expositions/"><%= t 'exhibitions.now' %></a>
+      <li id="e-2-3"><a href="/expositions/"><%= t 'exhibitions.expoarch' %></a>
+      <li id="e-2-4"><a href="/posts/"><%= t 'exhibitions.exponews' %></a>
+    </ul>
+  </div>
+  <div id="dinam_block3" class="dinam_blocks clearfix">
+    <%= cl_image_tag 'французские_часы.jpg' %>
+    <ul id="dinam_block_sp">
+      <li id="e-3-1"><a href="/contact"><%= t 'public.contact' %></a>
+      <li id="e-3-2"><a href="/price"><%= t 'public.price' %></a>
+      <li id="e-3-3"><a href="/workshop"><%= t 'public.workshop' %></a>
+      <li id="e-3-4"><a href="/services"><%= t 'public.services' %></a>
+    </ul>
+  </div>
 </div>
+<script>
+    $(document).ready(function () {
+
+        $("#o_musee").click(function () {
+            $("#dinam_block2").hide(200);
+            $("#dinam_block3").hide(200);
+            $("#cont").removeClass("active");
+            if (!$("#o_musee").hasClass("active")) {
+                $("#o_musee").addClass("active");
+                $("#vustavki").removeClass("active");
+                $("#posetiteli").removeClass("active");
+            } else {
+                $("#o_musee").removeClass("active");
+            }
+            $("#dinam_block1").slideToggle(200);
+            return false;
+        });
+
+        $("#vustavki").click(function () {
+            $("#dinam_block1").hide(200);
+            $("#dinam_block3").hide(200);
+            $("#cont").removeClass("active");
+            if (!$("#vustavki").hasClass("active")) {
+                $("#vustavki").addClass("active");
+                $("#o_musee").removeClass("active");
+                $("#posetiteli").removeClass("active");
+            } else {
+                $("#vustavki").removeClass("active");
+            }
+            $("#dinam_block2").slideToggle(200);
+            return false;
+        });
+
+        $("#posetiteli").click(function () {
+            $("#dinam_block2").hide(200);
+            $("#dinam_block1").hide(200);
+            $("#cont").removeClass("active");
+            if (!$("#posetiteli").hasClass("active")) {
+                $("#posetiteli").addClass("active");
+                $("#vustavki").removeClass("active");
+                $("#o_musee").removeClass("active");
+            } else {
+                $("#posetiteli").removeClass("active").addClass("simple");
+            }
+            $("#dinam_block3").slideToggle(200);
+            return false;
+        });
+    })
+</script>

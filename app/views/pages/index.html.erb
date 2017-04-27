@@ -1,0 +1,125 @@
+<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= cl_image_tag 'carousel/1.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>Приглашаем в Одесский историко-краеведческий музей</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/2.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>Здесь все Европой дышит</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/3.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>И назван наш город героем</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/4.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>Времен связующая нить</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/5.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>Музей "Степова Україна"</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/6.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>И назван наш город героем</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/7.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>герб Одессы</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/8.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>Сто лет Южной Пальмире</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/9.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+        <!--<div class="carousel-text-block">-->
+          <!--<h3>Музей "Степова Україна"</h3>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div>
+<style>
+  .carousel-text-block {
+    position: absolute;
+  }
+</style>
+<script>
+    var carousel = $('#carousel');
+    carousel.carousel({
+        interval: 7000,
+        pause: null,
+        keyboard: false
+    });
+    var text = $('.carousel-text-block');
+    var slide = function () {
+        var i = 0;
+        console.log('slide');
+        while (1 < 2) {
+            text.animate({left: '100px'}, 1000, function () {
+                i++
+            });
+            if (!(i % 4000)) {
+                text.attr('style', 'left: 20px');
+                carousel.carousel('next');
+            }
+        }
+    };
+</script>
+<div id="news">
+  <h4 class="title"><%= t :events %></h4>
+  <div class="content" style="padding: 10px 10px;">
+    <% @posts.each do |post| %>
+        <div class="news-content clearfix">
+
+          <h3 class="news-title" style="margin-bottom: 9px;font-size: 20px;">
+            <%= link_to post.title, post_path(id: post.id, anchor: 'news') %>
+            <span class="datetime"  style="font: 13px Helvetica, sans-serif; color: #999;
+                font-weight: normal; padding-top: 7px;"><%= post.created_at.strftime("%d %B %Y") %></span></h3>
+          <div>
+            <%= cl_image_tag 'французские_часы.jpg', :width => 150, :height => 150 %>
+            <%# image_tag_without_cloudinary post.preview %>
+            <p>
+              <%= post.text.slice(0, 450) + (post.text.length > 450 ? '...' : '') if post.text %>
+            </p>
+          </div>
+          <p class="readmore"><%= link_to 'Читать далее...', post_path(id: post.id, anchor: 'news') %></p>
+        </div>
+    <% end %>
+  </div>
+</div>

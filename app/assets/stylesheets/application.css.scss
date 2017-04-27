@@ -12,9 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ *= require fancybox
  */
 //     text-align: justify;
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(//fonts.googleapis.com/css?family=Raleway);
+@import url(http://allfont.ru/allfont.css?fonts=annabelle);
 
 @font-face {
   font-family: HelveticaRegular;
@@ -25,12 +27,20 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: Candara;
+  src: url(Candara/Candara.eot);
+  src: url(Candara/Candara.eot?#iefix) format("embedded-opentype"),
+  url(Candara/Candara.woff) format("woff"),
+  url(Candara/Candara.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
   .zero-m-p {
     padding: 0 !important;
     margin: 0 !important;
   }
 body {
-  background: url('marble_1_17.jpg') fixed;
-
+  background: url(//res.cloudinary.com/orhmuseum/image/upload/v1472766032/marble_1_17.jpg) fixed;
 }

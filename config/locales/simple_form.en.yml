@@ -1,31 +1,47 @@
 en:
   simple_form:
-    "yes": 'Yes'
-    "no": 'No'
+    "yes": 'Да'
+    "no": 'Нет'
+    options:
+      client:
+        role:
+          colleague: 'Колега по культурі'
+          journalist: 'Журналіст'
+          guest: 'Відвідувач'
+        age:
+          young: 'До 24'
+          adult: 'Від 25 до 45'
+          old: '46 і старше'
     required:
-      text: 'required'
+      text: 'обязательный'
       mark: '*'
       # You can uncomment the line below if you need to overwrite the whole required html.
       # When using html, text and mark won't be used.
       # html: '<abbr title="required">*</abbr>'
     error_notification:
-      default_message: "Please review the problems below:"
-    # Examples
-    # labels:
-    #   defaults:
-    #     password: 'Password'
-    #   user:
-    #     new:
-    #       email: 'E-mail to sign in.'
-    #     edit:
-    #       email: 'E-mail.'
-    # hints:
-    #   defaults:
-    #     username: 'User name to sign in.'
-    #     password: 'No special characters, please.'
-    # include_blanks:
-    #   defaults:
-    #     age: 'Rather not say'
-    # prompts:
-    #   defaults:
-    #     age: 'Select your age'
+      default_message: "Пожалуйста, ознакомьтесь с проблемами ниже:"
+    labels:
+      defaults:
+        name: "Им'я"
+        email: 'E-mail'
+        role: 'Статус'
+        age: 'Вік'
+        first_name: 'Имя'
+        last_name: 'Фамилия'
+        password: 'Пароль'
+        role: ''
+      user:
+        new:
+          email: 'E-mail.'
+        edit:
+          email: 'E-mail.'
+    hints:
+      defaults:
+        username: 'Имя пользователя.'
+        password: 'Никаких специальных символов , пожалуйста.'
+    include_blanks:
+      defaults:
+        age: 'Предпочитаю умолчать'
+    prompts:
+      defaults:
+        age: 'Не вказано'

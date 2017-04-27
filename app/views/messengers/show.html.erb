@@ -1,4 +1,80 @@
-<p id="notice"><%= notice %></p>
+<style>
+  #dinam_block1 {
+    display: block
+  }
+</style>
+<script>
+    $("#vustavki").addClass("active");
+    $("#edition").addClass("current");
+</script>
+<script>
+    $("#v-<%= @messenger.id %>").addClass("current");
+    document.getElementById("din_edition").style.display = "block";
+</script>
+<div id="news">
+  <h4 class="title">ВІСНИК Одеського iсторико-краєзнавчого музею (випуск <%= @messenger.id %>)</h4>
+  <div class="content">
+    <h3 class="content-header">Cодержание</h3>
+    <% @messenger.topics.each do |topic| %>
+        <h4 class="topic"><%= topic.name %></h4>
+        <ul>
+          <% topic.articles.order(:created_at).each do |article| %>
+              <li><h4 class="news-title">
+                <a href='#' data-toggle="modal" data-target="#myModal<%= article.id %>">
+                  <%= article.title %>
+                </a>
+              </h4>
+                <p><%= article.author %></p>
+                <div class="modal fade"
+                     id="myModal<%= article.id %>"
+                     tabindex=" -1"
+                     role="dialog"
+                     aria-labelledby="myModalLabel<%= article.id %>"
+                     aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button"
+                                class="close"
+                                data-dismiss="modal"
+                                aria-hidden="true">&times;
+                        </button>
+                        <p style="color: #3aa3a4"><%= article.author %></p>
+                        <h4 class="modal-title" id="myModalLabel<%= article.id %>" style="padding-top: 20px">
+                          <%= article.title %>
+                        </h4>
+                      </div>
+                      <div class="modal-body" id="ModalBody<%= article.id %>">
+                        <script>
+                            var article = "<p>" +
+                                "<%= process_string((article.text || '').gsub("\"", "'").gsub("\n\n", "\n").gsub(/(\s|\n)?(\*\*\*)(\s|\n)?/, '***')) %>";
+                            article = article.split(/\*\*\*/);
 
-<%= link_to 'Edit', edit_messenger_path(@messenger) %> |
-<%= link_to 'Back', messengers_path %>
+                            var i = 0;
+                            do {
+                                i += 1;
+                                article[0] = article[0].replace('`', '<span style="font-style:normal;color:#1582ca">');
+                                article[0] = article[0].replace('`', '</span>');
+                                i = article.indexOf('`')
+                            } while (i >= 0);
+                            if (article[1]) {
+                                article[1] = article[1].replace(/`\(\d+\)`/g, '');
+                                article[1] = article[1].replace(/\n/, '<li>');
+                                article[0] += '<div class="annot"><ol><li>' + article[1] + '</ol></div>';
+                            }
+                            document.getElementById("ModalBody<%= article.id %>").innerHTML = article[0];
+                        </script>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+          <% end %>
+        </ul>
+    <% end %>
+  </div>
+</div>

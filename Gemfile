@@ -4,11 +4,15 @@ ruby '2.2.2'
 
 gem 'rails', '4.2.6'
 gem 'jquery-rails'
+gem 'fancybox2-rails', '~> 0.2.8'
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'globalize', '~> 5.0.0'
 gem 'font-awesome-sass', '~> 4.6.2'
+gem 'cloudinary'
+gem 'rails_12factor'
 
 group :assets do
   gem 'sass-rails', '~> 5.0'

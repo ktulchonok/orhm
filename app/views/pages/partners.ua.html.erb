@@ -1,0 +1,165 @@
+<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= cl_image_tag 'carousel/1.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>Приглашаем в Одесский историко-краеведческий музей</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/2.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>Здесь все Европой дышит</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/3.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>И назван наш город героем</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/4.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>Времен связующая нить</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/5.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>Музей "Степова Україна"</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/6.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>И назван наш город героем</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/7.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>герб Одессы</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/8.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>Сто лет Южной Пальмире</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+    <div class="item">
+      <%= cl_image_tag 'carousel/9.jpg', :width => 750, :height => 350, :crop => :fill %>
+      <!--<div class="carousel-caption">-->
+      <!--<div class="carousel-text-block">-->
+      <!--<h3>Музей "Степова Україна"</h3>-->
+      <!--</div>-->
+      <!--</div>-->
+    </div>
+  </div>
+</div>
+<style>
+  .carousel-text-block {
+    position: absolute;
+  }
+</style>
+<script>
+    var carousel = $('#carousel');
+    carousel.carousel({
+        interval: 7000,
+        pause: null,
+        keyboard: false
+    });
+    var text = $('.carousel-text-block');
+    var slide = function () {
+        var i = 0;
+        console.log('slide');
+        while (1 < 2) {
+            text.animate({left: '100px'}, 1000, function () {
+                i++
+            });
+            if (!(i % 4000)) {
+                text.attr('style', 'left: 20px');
+                carousel.carousel('next');
+            }
+        }
+    };
+</script>
+<div id="news">
+  <h4 class="title">Наукові партнери Одеського історико-краєзнавчого музею</h4>
+  <div class="content">
+    <p>
+      Науково-дослідний інститут архівної справи та документознавства (м. Київ);
+    </p>
+    <p>
+      Історичний факультет Одеського національного університету ім. І. І. Мечникова;
+    </p>
+    <p>
+      Південноукраїнський національний педагогічний університет ім. К. Д. Ушинського;
+    </p>
+    <p>
+      Одеська державна академія будівництва та архітектури (архітектурно-художній інститут);
+    </p>
+    <p>
+      Одеська державна музична академія ім. А. В. Нежданової;
+    </p>
+    <p>
+      Одеське художнє училище ім. М. Б. Грекова;
+    </p>
+    <p>
+      Державний архів Одеської області;
+    </p>
+    <p>
+      Наукова бібліотека Одеського національного університету ім. І. І. Мечникова;
+    </p>
+    <p>
+      Одеська національна наукова бібліотека;
+    </p>
+    <p>
+      Одеська універсальна наукова бібліотека ім. М. Грушевського;
+    </p>
+    <p>
+      Одеський археологічний музей (НАН України);
+    </p>
+    <p>
+      Одеський літературний музей;
+    </p>
+    <p>
+      Муніципальний музей особових колекцій ім. О. В. Блещунова;
+    </p>
+    <p>
+      Військово-історичний музей Південного оперативного округу України;
+    </p>
+    <p>
+      Білгород-Дністровський краєзнавчий музей;
+    </p>
+    <p>
+      Ізмаїльський музей О. В. Суворова;
+    </p>
+    <p>
+      Історико-краєзнавчий музей Придунав'я (м. Ізмаїл);
+    </p>
+    <p>
+      Одеська українська гімназія №2;
+    </p>
+    <p>
+      Одеська музична школа ім. П. С. Столярського.
+    </p>
+  </div>
+</div>

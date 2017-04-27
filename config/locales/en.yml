@@ -1,8 +1,44 @@
 en:
-  hello: "Hello world"
-  about: "About museum"
-  exhibitions: "Exhibitions"
-  public: "To the public"
+  about:
+    title: "About museum"
+    history: "History of the museum"
+    expos: "Permanent galleries"
+    branches: "Branch Museums"
+    messengers: "Scientific editions"
+    online: "On-line exhibitions"
+    virtual: "Virtual tour"
+    expo:
+      gavana: "4, Havanna str. (main building)"
+      old_odessa: "The Old Odessa"
+      weapons: "Weapons from the Museum’s collection"
+      wwii: "Odessa and its region in World War II 1939-1945."
+      odessa_1917_1941: "Odessa region. 1917 - 1941: the look through the years"
+      starvation: "Revival of memory (Holodomor 1932-1933. Odessa Region)"
+      lanzh: "24a, Lanzheronovskaya str."
+      step_ukr: 'Museum "Stepova Ukraine"'
+      showroom: "Exhibition Hall"
+  exhibitions:
+    title: "Exhibitions"
+    anons: "Анонси"
+    now: "Діючі виставки"
+    expoarch: "Архів виставок"
+    exponews: "Архів новин"
+  public:
+    title: "Visiting"
+    contact: "Getting here"
+    price: "Tickets and prices"
+    workshop: "Творча майстерня «Арт-терапія предків»"
+    services: "Додаткові послуги"
   contacts: "Contacts"
+  subscribe:
+    button: "Підписатись"
+    longbutton: "Підписатися на розсилку"
+    title: "Будьте в курсі наших подій"
   history: "History"
-  subscribe: "Subscribe"
+  events: "What’s On"
+  rightblock:
+    exhibitions: "Виставки"
+    afisha: 'Афіша'
+    anons: "Анонси"
+    now: "Зараз"
+  role: 'Статус'

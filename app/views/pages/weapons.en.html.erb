@@ -1,0 +1,55 @@
+<style>
+  #dinam_block1 {
+    display: block
+  }
+</style>
+<script>
+  $("#o_musee").addClass("active");
+  $("#expo-2").addClass("current");
+  $("#expo").addClass("current");
+  document.getElementById("din_expo").style.display = "block";
+</script>
+<div id="news">
+  <a id="title"></a>
+  <h4 class="title">Weapons from the Museum’s collection</h4>
+  <div class="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula pharetra dui, eu semper nisl vulputate
+      dictum. Proin sed lacus ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+      Curae; Vestibulum feugiat placerat lorem a ullamcorper. Suspendisse quis gravida risus. Etiam congue eget sem
+      vitae tempor. In feugiat dui dui, a vestibulum orci viverra ut. Duis congue nunc at mauris consectetur egestas.
+      Vestibulum aliquet sem quis leo tempus pretium. Duis pulvinar elit a risus feugiat, in condimentum felis mattis.
+    </p>
+    <p>
+      Praesent mi est, feugiat ut leo in, aliquam pellentesque arcu. Nulla ac metus dolor. Nam condimentum nulla
+      pharetra commodo vestibulum. Vestibulum tellus urna, mollis sit amet libero a, convallis convallis turpis. Donec
+      dictum ipsum quis efficitur rhoncus. Quisque sit amet tellus aliquet, convallis ante at, aliquam lorem.
+      Phasellus bibendum nunc eu eros lacinia, vel molestie tellus imperdiet. Donec ornare ullamcorper feugiat.
+      Curabitur bibendum elit sit amet risus aliquam dapibus.
+    </p>
+    <p>
+      Phasellus condimentum, dui at porta posuere, nulla quam ullamcorper sem, sed rhoncus neque felis non leo. Nulla
+      posuere magna vel ante maximus scelerisque. Proin suscipit, leo lacinia interdum tempus, ipsum lacus dignissim
+      felis, vitae auctor ante ex vel lorem. In gravida, elit vitae congue interdum, risus risus ornare nunc, at
+      vulputate erat sapien non nibh. Maecenas mi tortor, egestas eu venenatis sit amet, facilisis nec purus. Donec
+      non eros ornare lectus efficitur consequat a et mi. Vivamus imperdiet dui vitae viverra tincidunt. Suspendisse
+      id quam euismod, porta eros non, facilisis diam. Nullam lacinia nisi sed lorem iaculis sagittis. Duis et lacus
+      et purus porta iaculis sit amet fringilla turpis. Donec ullamcorper ultricies velit, eget efficitur nisi
+      bibendum vel. Sed nec lacus et libero commodo dictum. Sed accumsan efficitur justo, a sagittis lacus sodales in.
+    </p>
+    <div class="images">
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/expositions/2.оружие из коллекции музея/1.jpg">
+        <%= cl_image_tag('expositions/2.оружие из коллекции музея/1.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/expositions/2.оружие из коллекции музея/DSC_8671.JPG">
+        <%= cl_image_tag('expositions/2.оружие из коллекции музея/DSC_8671.JPG', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/expositions/2.оружие из коллекции музея/DSC_8673.JPG">
+        <%= cl_image_tag('expositions/2.оружие из коллекции музея/DSC_8673.JPG', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/expositions/2.оружие из коллекции музея/IMG_1193.JPG">
+        <%= cl_image_tag('expositions/2.оружие из коллекции музея/IMG_1193.JPG', width: 210, height: 140, :crop => :fill) %>
+      </a>
+    </div>
+  </div>
+</div>

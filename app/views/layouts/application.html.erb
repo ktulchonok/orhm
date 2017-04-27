@@ -9,11 +9,41 @@
   <%= csrf_meta_tags %>
   <%= yield(:head) %>
 </head>
-<body class="<%= controller_name %> <%= action_name %>">
+<body class="<%= controller_name %> <%= action_name %> desktop">
 <header>
   <%= render 'layouts/header' %>
 </header>
 <%= render 'layouts/navigation' %>
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog" role="document" style="width: 400px">
+    <div class="modal-content" style="padding: 20px 40px">
+      <section class="subscribe">
+        <h4 style="font-family: Raleway, serif; text-align: center; font-size: 20px; text-transform: uppercase">
+          Будьте в курсе наших событий
+        </h4>
+        <%= render 'clients/form' %>
+        <style>
+          .form-inputs input:focus{
+            border-color: #3AA3A4;
+          }
+          .form-actions {
+            display: flex;
+            justify-content: center;
+          }
+          .form-actions input {
+            text-transform: uppercase;
+            background: #d1e1e6 !important;
+          }
+          .form-actions input:hover{
+            /*box-shadow: 0 0 10px 0 rgba(0,0,0,.3);*/
+            background-color: #3AA3A4 !important;
+            color: white;
+          }
+        </style>
+      </section>
+    </div>
+  </div>
+</div>
 <div id="content">
   <div id="wrapper">
     <%= render 'layouts/messages' %>

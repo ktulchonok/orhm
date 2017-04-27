@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-xs-12 m-header">
+    <%= link_to root_path do
+      cl_image_tag "head_#{I18n.locale}_m.jpg", class: 'logo'
+    end %>
+    <button type="button" class="btn btn-dropdown"
+            data-toggle="dropdown" data-target=".dropdown">
+      <%= icon('ellipsis-v') %>
+    </button>
+  </div>
+</div>
+<div class="dropdown">
+  <ul class="dropdown-menu">
+    <!--TODO: Add flags to languages switch-->
+    <li><%= link_to 'Українська', set_language_ukrainian_path %>
+    <li><%= link_to 'Русский', set_language_russian_path %>
+    <li><%= link_to 'English', set_language_english_path %>
+    <li role="separator" class="divider"></li>
+    <li><%= link_to '//facebook.com/Odessa.Regional.History.Museum' do %>
+          <%= cl_image_tag 'logo_social/FB.png' %> Facebook
+      <% end %>
+    <li><%= link_to '//vk.com/club26889806' do %>
+          <%= cl_image_tag 'logo_social/VK.png' %> VK
+      <% end %>
+    <li><%= link_to '//twitter.com/OdHistoryMuseum' do %>
+          <%= cl_image_tag 'logo_social/Twitter.png' %> Twitter
+      <% end %>
+    <li><%= link_to t(:subscribe), subscribe_path(anchor: 'collapseOne') %>
+  </ul>
+</div>

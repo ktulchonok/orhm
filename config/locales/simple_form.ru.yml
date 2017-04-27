@@ -2,6 +2,16 @@ ru:
   simple_form:
     "yes": 'Да'
     "no": 'Нет'
+    options:
+      client:
+        role:
+          colleague: 'Коллега по культуре'
+          journalist: 'Журналист'
+          guest: 'Посетитель'
+        age:
+          young: 'До 24'
+          adult: 'От 25 до 45'
+          old: '46 и старше'
     required:
       text: 'обязательный'
       mark: '*'
@@ -12,6 +22,10 @@ ru:
       default_message: "Пожалуйста, ознакомьтесь с проблемами ниже:"
     labels:
       defaults:
+        name: 'Имя'
+        email: 'E-mail'
+        role: 'Статус'
+        age: 'Возраст'
         first_name: 'Имя'
         last_name: 'Фамилия'
         password: 'Пароль'
@@ -30,4 +44,4 @@ ru:
         age: 'Предпочитаю умолчать'
     prompts:
       defaults:
-        age: 'Выберите свой ​​возраст'
+        age: 'Не указано'

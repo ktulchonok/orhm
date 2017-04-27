@@ -4,6 +4,10 @@ class ExpositionsController < ApplicationController
   # GET /expositions
   def index
     @expositions = Exposition.all
+    end
+
+  def anons
+    @expositions = Exposition.all
   end
 
   # GET /expositions/1

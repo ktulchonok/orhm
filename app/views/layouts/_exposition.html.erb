@@ -1,23 +1,29 @@
 <div id="exposition">
-  <h4 class="title">ВЫСТАВКИ</h4>
-  <div>
-    <h5 class="exposition-title">АНОНСЫ</h5>
-    <ul class="exposition-sp">
-      <% all_expositions.where("start_date > #{Date.today}").order(:start_time).each do |e| %>
-          <li><%= link_to e.title, exposition_path(e), rel: 'popover', data_content: e.address %>
-            <p></p>
-      <% end %>
-      <!--<p>date('d.m.Y', strtotime($date['start_date'])) . " - " . date('d.m.Y', strtotime($date['end_date']))</p>";-->
-    </ul>
+  <h4 class="title" style="text-transform: uppercase"><%= t 'rightblock.afisha' %></h4>
+  <div class="announcement">
+    <%# all_expositions.where("start_date > '#{Date.today}'").order(:start_time).each do |e| %>
+    <% all_expositions.each do |e| %>
+        <div>
+          <%= link_to e.title, exposition_path(id: e.id, anchor: 'news'), rel: 'popover', data_content: e.address %>
+          <p>23 December 11.00</p>
+        </div>
+    <% end %>
   </div>
-  <div>
-    <h5 class="exposition-title">СЕЙЧАС</h5>
-    <ul class="exposition-sp">
-      <% all_expositions.where("start_date <= #{Date.today} and end_date >= #{Date.today}").order(:start_time).each do |e| %>
-          <li><%= link_to e.title, exposition_path(e), rel: 'popover', data_content: e.address %>
-            <p></p>
-      <% end %>
-      <!--<p>" . date('d.m.Y', strtotime($date['start_date'])) . " - " . date('d.m.Y', strtotime($date['end_date'])) . "</p>";-->
-    </ul>
+  <div class="now">
+    <div>
+      <a href="/expositions/1#news">Lorem ipsum</a>
+      <p>23 Декабря - 11 Января</p>
+    </div>
+    <div>
+      <a href="/expositions/2#news">Мастер-класс по керамике</a>
+      <p>23 Декабря - 11 Января</p>
+    </div>
+    <% all_expositions.where("start_date <= '#{Date.today}' and end_date >= '#{Date.today}'").order(:start_time).each do |e| %>
+        <div>
+          <%= link_to e.title, exposition_path(id: e.id, anchor: 'news'), rel: 'popover', data_content: e.address %>
+          <p></p>
+        </div>
+    <% end %>
+
   </div>
 </div>

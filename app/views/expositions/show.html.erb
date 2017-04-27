@@ -1,39 +1,24 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @exposition.title %>
-</p>
-
-<p>
-  <strong>Text:</strong>
-  <%= @exposition.text %>
-</p>
-
-<p>
-  <strong>Address:</strong>
-  <%= @exposition.address %>
-</p>
-
-<p>
-  <strong>Start time:</strong>
-  <%= @exposition.start_time %>
-</p>
-
-<p>
-  <strong>End time:</strong>
-  <%= @exposition.end_time %>
-</p>
-
-<p>
-  <strong>Start date:</strong>
-  <%= @exposition.start_date %>
-</p>
-
-<p>
-  <strong>End date:</strong>
-  <%= @exposition.end_date %>
-</p>
-
-<%= link_to 'Edit', edit_exposition_path(@exposition) %> |
-<%= link_to 'Back', expositions_path %>
+<style>
+  #dinam_block2 {
+    display: block
+  }
+</style>
+<script>
+    $("#vustavki").addClass("active");
+    $("#e-2-2").addClass("current");
+</script>
+<div id="news">
+  <h4 class="title">АФИША</h4>
+  <div class="content show">
+    <h3><%# @exposition.title %>Мастер-класс по керамике</h3>
+    <h5><%= @exposition.start_time %>23 Декабря - 11 Января<%= @exposition.end_date %></h5>
+    <h5>Адресс: ул. Гаванная, 4<%= @exposition.address %></h5>
+    <h5 style="margin-bottom: 30px;">Открытие: 9.00<%= @exposition.start_time %></h5>
+    <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/carousel/6.jpg">
+      <%= cl_image_tag('carousel/6.jpg', width: 340, height: 500, crop: :fill) %>
+    </a>
+    <p><%= @exposition.text %> <%= @exposition.text %> <%= @exposition.text %></p>
+    <p><%= @exposition.text %> <%= @exposition.text %> <%= @exposition.text %></p>
+    <p><%= @exposition.text %> <%= @exposition.text %> <%= @exposition.text %></p>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<style>
+  #dinam_block2 {
+    display: block
+  }
+</style>
+<script>
+    $("#vustavki").addClass("active");
+    $("#e-2-1").addClass("current");
+</script>
+<div id="news">
+  <h4 class="title">Анонсы</h4>
+  <div class="content" style="padding: 10px 10px;">
+    <% @expositions.each do |post| %>
+        <div class="news-content clearfix">
+          <h3 class="news-title" style="margin-bottom: 9px;font-size: 20px;">
+            <%= link_to post.title, exposition_path(id: post.id, anchor: 'vustavki') %>
+            <span class="datetime"  style="font: 14px Helvetica, sans-serif; color: #000;
+                font-weight: bold; padding-top: 7px;">23 декабря 11.00</span></h3>
+          <div>
+            <%= cl_image_tag 'французские_часы.jpg', :width => 150, :height => 150 %>
+            <%# image_tag_without_cloudinary post.preview %>
+            <p>
+              <%= post.text.slice(0, 450) + (post.text.length > 450 ? '...' : '') if post.text %>
+            </p>
+          </div>
+          <p class="readmore"><a href="#">Читать далее...</a></p>
+        </div>
+    <% end %>
+  </div>
+</div>

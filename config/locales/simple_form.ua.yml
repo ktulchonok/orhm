@@ -2,6 +2,16 @@ ua:
   simple_form:
     "yes": 'Да'
     "no": 'Нет'
+    options:
+      client:
+        role:
+          colleague: 'Колега по культурі'
+          journalist: 'Журналіст'
+          guest: 'Відвідувач'
+        age:
+          young: 'До 24'
+          adult: 'Від 25 до 45'
+          old: '46 і старше'
     required:
       text: 'обязательный'
       mark: '*'
@@ -12,6 +22,10 @@ ua:
       default_message: "Пожалуйста, ознакомьтесь с проблемами ниже:"
     labels:
       defaults:
+        name: "Им'я"
+        email: 'E-mail'
+        role: 'Статус'
+        age: 'Вік'
         first_name: 'Имя'
         last_name: 'Фамилия'
         password: 'Пароль'
@@ -30,4 +44,4 @@ ua:
         age: 'Предпочитаю умолчать'
     prompts:
       defaults:
-        age: 'Выберите свой ​​возраст'
+        age: 'Не вказано'

@@ -1,0 +1,93 @@
+<style>
+  #dinam_block1 {
+    display: block
+  }
+</style>
+<script>
+  $("#o_musee").addClass("active");
+  $("#e-1-3").addClass("current");
+</script>
+<div id="news">
+  <a id="title"></a>
+  <h4 class="title">Branch museums</h4>
+  <div class="content">
+    <h4 style="color: #3aa3a4; font-size: 20px">Memorial of Heroic Defense of Odessa Museum</h4>
+    <p>
+      Мемориальный комплекс, посвящённый героической обороне Одессы во время Великой Отечественной войны. В состав
+      мемориального комплекса входят музей, выставка военной техники под открытым небом, батарея береговой обороны,
+      большой засаженный дубами парк. Мемориал героической обороны Одессы находится на южной окраине Одессы и относится
+      к Киевскому району.
+      На территории мемориала под открытым небом расположена выставка военной техники и вооружения армии периода Великой
+      Отечественной войны. В том числе здесь находится известный одесский «танк» НИ («На испуг»). Это обычный трактор,
+      обшитый противопульной броней (котловым железом). Такие машины изготавливались силами защитников осажденного
+      города во время обороны Одессы.
+      Среди экспонатов, на участке железнодорожного пути стоит бронепоезд, аналогичный тому, какие производились в дни
+      обороны города на заводе им. Январского восстания. На другом участке выставлен трамвай, который в 1941 году ходил
+      по маршруту «Одесса-фронт» Также под открытым небом с марта 1985 года выставлена послевоенная подводная лодка
+      «Малютка» М-296 (А615, заводской номер 702). На лодку нанесено обозначение М-305, которое в ВМФ никогда не
+      использовалось.
+      На данный момент в экспозиции присутствуют 2 орудия Д-20 и два зенитно-ракетных комплекса не имеющих отношения ни
+      к обороне города ни к периоду Второй Мировой войны.
+    </p>
+    <div class="images">
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5644.jpg">
+        <%= cl_image_tag('DSC_5644.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5611.jpg">
+        <%= cl_image_tag('DSC_5611.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5637.jpg">
+        <%= cl_image_tag('DSC_5637.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5659.jpg">
+        <%= cl_image_tag('DSC_5659.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5650.jpg">
+        <%= cl_image_tag('DSC_5650.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5638.jpg">
+        <%= cl_image_tag('DSC_5638.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5629.jpg">
+        <%= cl_image_tag('DSC_5629.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5599.jpg">
+        <%= cl_image_tag('DSC_5599.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/DSC_5648.jpg">
+        <%= cl_image_tag('DSC_5648.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+    </div>
+
+    <p style="margin-top: 20px; margin-bottom: 25px">Контакты: <%= link_to 'ссылка', contact_path(anchor: '411'), {style: 'color: #919392'} %></p>
+    <h4 style="color: #3aa3a4; font-size: 20px">Bolgrad History and Ethnography Museum</h4>
+    <p>
+      Болградский историко-этнографический музей один из наиболее крупных и известных районных музеев области. Здесь
+      собраны богатейшие материалы, которые охватывают историю нашего региона с древнейших времен до новейшего периода
+      История музея насчитывает более 50 лет. Он создавался в начале 60-х годов прошлого столетия на общественных
+      началах. У истоков его стояли молодые педагоги: учитель истории Павел Федорович Ешмеков, ныне известный
+      отечественный археолог, единственный из ведущих специалистов Украины, занимающийся изучением проблем эпохи
+      энеолита – бронзы, Леонид Васильевич Субботин, и начинающий журналист Юрий Федорович Греков. Отдавая этому делу
+      все свободное время, они привлекали также к работе в музее своих друзей, товарищей, учеников.
+      Музей быстро приобрел известность. Леонид Субботин наладил тесные связи с Одесским археологическим музеем,
+      Одесским государственным университетом им. Мечникова и другими крупными музейными и научными центрами. Болградский
+      историко-краеведческий музей получил статус народного музея. Это было большим достижением.
+    </p>
+    <p>
+      Адрес: 68700, Одесская область, г. Болград, ул. Ленина 154.<br>
+      Тел. (04846) 22406
+    </p>
+    <div class="images">
+      <a class="fancybox" rel="group2" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/muzei15.jpg">
+        <%= cl_image_tag('muzei15.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group2" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/muzei21.jpg">
+        <%= cl_image_tag('muzei21.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+      <a class="fancybox" rel="group2" href="https://res.cloudinary.com/orhmuseum/image/upload/c_scale,h_1080/muzei23.jpg">
+        <%= cl_image_tag('muzei23.jpg', width: 210, height: 140, :crop => :fill) %>
+      </a>
+    </div>
+
+  </div>
+</div>

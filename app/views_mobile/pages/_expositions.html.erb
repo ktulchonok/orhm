@@ -1,0 +1,21 @@
+<% content_for :about do %>
+    <section class="container" style="border-bottom: 1px solid #ddd;">
+      <h5 id="gavana">ул. Гаванная, 4 (главное здание)</h5>
+      <ul>
+        <li id="li-old_odessa"><%= link_to '"Старая Одесса"', old_odessa_path(anchor: 'gavana') %>
+        <li id="li-weapons"><%= link_to '"Оружие из колекции музея"', weapons_path(anchor: 'gavana') %>
+        <li id="li-wwii"><%= link_to '"Одесса и край в годы Второй мировой войны. 1939-1945 гг."', wwii_path(anchor: 'gavana') %>
+        <li id="li-odessa_1917_1941"><%= link_to '"Одесчина 1917-1941: взгляд сквозь годы"', odessa_1917_1941_path(anchor: 'gavana') %>
+        <li id="li-starvation"><%= link_to '"Пробуждение памяти (Голодомор 1932-1933 гг на Одесщине)"', starvation_path(anchor: 'gavana') %>
+      </ul>
+      <h5 id="lanzh">ул. Ланжероновская, 24а</h5>
+      <ul>
+        <li id="li-step_ukr"><%= link_to 'Музей "Музей степова Україна"', step_ukr_path(anchor: 'lanzh') %>
+        <li id="li-showroom"><%= link_to 'Выставочный зал', showroom_path(anchor: 'lanzh') %>
+      </ul>
+    </section>
+    <script>
+      var current = $("#li-<%= action_name %>");
+      current.addClass("current-expo");
+    </script>
+<% end %>

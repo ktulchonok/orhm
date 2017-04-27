@@ -3,11 +3,12 @@ class MessengersController < ApplicationController
 
   # GET /messengers
   def index
-    @messengers = Messenger.all
+    @messengers = Messenger.includes(:topics).where.not(topics: {messenger_id: nil})
   end
 
   # GET /messengers/1
   def show
+    @messenger = Messenger.find(params[:id])
   end
 
   # GET /messengers/new

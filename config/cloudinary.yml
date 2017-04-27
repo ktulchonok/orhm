@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: orhmuseum
+  api_key: '223148368849111'
+  api_secret: JvsJ2JwkedGJdFp9kLiH5nslcNQ
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: orhmuseum
+  api_key: '223148368849111'
+  api_secret: JvsJ2JwkedGJdFp9kLiH5nslcNQ
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: orhmuseum
+  api_key: '223148368849111'
+  api_secret: JvsJ2JwkedGJdFp9kLiH5nslcNQ
+  enhance_image_tag: true
+  static_image_support: false

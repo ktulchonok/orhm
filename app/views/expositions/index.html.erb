@@ -1,39 +1,30 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Listing Expositions</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Text</th>
-      <th>Address</th>
-      <th>Start time</th>
-      <th>End time</th>
-      <th>Start date</th>
-      <th>End date</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @expositions.each do |exposition| %>
-      <tr>
-        <td><%= exposition.title %></td>
-        <td><%= exposition.text %></td>
-        <td><%= exposition.address %></td>
-        <td><%= exposition.start_time %></td>
-        <td><%= exposition.end_time %></td>
-        <td><%= exposition.start_date %></td>
-        <td><%= exposition.end_date %></td>
-        <td><%= link_to 'Show', exposition %></td>
-        <td><%= link_to 'Edit', edit_exposition_path(exposition) %></td>
-        <td><%= link_to 'Destroy', exposition, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+<style>
+  #dinam_block2 {
+    display: block
+  }
+</style>
+<script>
+    $("#vustavki").addClass("active");
+    $("#e-2-2").addClass("current");
+</script>
+<div id="news">
+  <h4 class="title">Действующие выставки</h4>
+  <div class="content" style="padding: 10px 10px;">
+    <% @expositions.each do |post| %>
+        <div class="news-content clearfix">
+          <h3 class="news-title" style="margin-bottom: 9px;font-size: 20px;">
+            <%= link_to post.title, exposition_path(id: post.id, anchor: 'vustavki') %>
+            <span class="datetime"  style="font: 13px Helvetica, sans-serif; color: #000;
+                font-weight: bold; padding-top: 7px;">23 декабря - 11 января</span></h3>
+          <div>
+            <%= cl_image_tag 'французские_часы.jpg', :width => 150, :height => 150 %>
+            <%# image_tag_without_cloudinary post.preview %>
+            <p>
+              <%= post.text.slice(0, 450) + (post.text.length > 450 ? '...' : '') if post.text %>
+            </p>
+          </div>
+          <p class="readmore"><a href="#">Читать далее...</a></p>
+        </div>
     <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Exposition', new_exposition_path %>
+  </div>
+</div>
