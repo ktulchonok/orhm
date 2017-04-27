@@ -1,159 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a6368e4-81c6-4290-b1de-7f522bef0d32" name="Default" comment="black body font">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/Candara/Candara.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/Candara/Candara.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/100.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/101.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/102.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/103.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/104.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/105.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/106.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/107.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/108.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/109.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/110.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/111.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/112.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/113.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/114.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/38.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/39.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/40.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/41.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/42.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/43.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/44.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/45.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/46.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/47.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/48.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/49.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/50.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/51.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/52.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/53.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/54.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/55.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/56.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/57.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/58.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/59.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/60.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/61.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/62.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/63.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/64.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/65.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/66.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/67.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/68.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/69.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/70.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/71.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/72.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/73.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/74.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/75.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/76.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/77.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/78.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/79.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/81.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/82.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/84.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/85.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/86.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/87.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/88.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/89.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/90.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/91.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/92.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/93.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/94.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/96.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/97.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/tenders/98.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/Candara/Candara.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/expositions/anons.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_contacts.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/branches.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/branches.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/branches.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/contact.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/contact.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/contact.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/contacts.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/contacts.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/contacts.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/history.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/how.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/odessa_1917_1941.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/odessa_1917_1941.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/odessa_1917_1941.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/old_odessa.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/old_odessa.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/old_odessa.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/online.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/partners.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/partners.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/partners.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/price.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/price.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/price.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/services.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/showroom.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/showroom.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/showroom.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/starvation.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/starvation.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/starvation.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/step_ukr.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/step_ukr.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/step_ukr.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/tenders.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/virtual_tour.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/weapons.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/weapons.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/weapons.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/workshop.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/workshop.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/workshop.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/wwii.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/wwii.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/wwii.ua.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/layouts/_carousel.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/layouts/_header.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/layouts/_nav.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/layouts/application.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/_expositions.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/branches.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/contact.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/excursion.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/expositions.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/history.en.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/history.ru.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/odessa_1917_1941.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/old_odessa.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/price.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/showroom.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/starvation.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/step_ukr.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/subscribe.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/weapons.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views_mobile/pages/wwii.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cloudinary.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20160923065411_add_age_to_client.rb" />
+    <list default="true" id="8a6368e4-81c6-4290-b1de-7f522bef0d32" name="Default" comment="2nd commit">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
@@ -165,610 +13,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/Button_15-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSCF2399.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSCF2421.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSCF2761.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC_5611.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC_5637.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC_5644.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC_5684.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5547.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5547.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5601.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5601.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5627.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5627.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5628.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5628.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5655.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5655.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5660.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/IMG_5660.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/_.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/__0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/__1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/__2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/img_5547.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/img_5601.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/img_5627.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/img_5628.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/img_5655.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/img_5660.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/герб Одессы.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/герб Одессы.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/зал архитектуры.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/зал архитектуры.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/кабинет губернаторов.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/кабинет губернаторов.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/парадная лестница12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/carousel/парадная лестница12.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/clock.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/IMG_5559.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/IMG_5559_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/IMG_5601.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/IMG_5601_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/IMG_5618.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/IMG_5618_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/IMG_5641.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/IMG_5641_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/герб Одессы.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/герб Одессы_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/лист 1 018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/1.старая одесса/лист 1 018_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/2.оружие из коллекции музея/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/2.оружие из коллекции музея/1_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/2.оружие из коллекции музея/DSC_8671.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/2.оружие из коллекции музея/DSC_8671_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/2.оружие из коллекции музея/DSC_8673.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/2.оружие из коллекции музея/DSC_8673_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/2.оружие из коллекции музея/IMG_1193.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/2.оружие из коллекции музея/IMG_1193_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/3.одесса и край в годы второй мировой войны/DSCF2323.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/3.одесса и край в годы второй мировой войны/DSCF2323_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/3.одесса и край в годы второй мировой войны/DSCF2330.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/3.одесса и край в годы второй мировой войны/DSCF2330_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/3.одесса и край в годы второй мировой войны/DSCF2343.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/3.одесса и край в годы второй мировой войны/DSCF2343_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/3.одесса и край в годы второй мировой войны/IMG_5628.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/3.одесса и край в годы второй мировой войны/IMG_5628_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/4.одесщина 1917-1941/DSCF2803.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/4.одесщина 1917-1941/DSCF2803_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/4.одесщина 1917-1941/DSCF2804.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/4.одесщина 1917-1941/DSCF2804_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/4.одесщина 1917-1941/IMG_1244.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/4.одесщина 1917-1941/IMG_1244_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/6.музей степова украина/IMG_5650.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/6.музей степова украина/IMG_5650_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/6.музей степова украина/IMG_5655.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/6.музей степова украина/IMG_5655_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/6.музей степова украина/IMG_5660.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/expositions/6.музей степова украина/IMG_5660_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/head_en.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/head_ru.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/head_ua.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/logo_social/FB.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/logo_social/Twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/logo_social/VK.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/logo_social/tripadvisor-logo-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/logo_social/tripadvisor-logo-classic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/logo_social/tripadvisor-logo-transparent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/logo_social/tripadvisor-logo-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/marble_1_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/muzei15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/muzei21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/muzei23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/017.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/022.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/023.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/024.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/025.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/026.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/027.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/1/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/017.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/022.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/023.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/024.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/025.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/026.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/027.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/031.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/032.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/034.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/035.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/037.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/038.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/039.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/040.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/041.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/042.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/043.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/044.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/045.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/046.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/047.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/048.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/049.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/050.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/2/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/017.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/022.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/023.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/024.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/025.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/026.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/027.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/3/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/015.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/017.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/018.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/022.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/023.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/024.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/025.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/026.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/027.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/030.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/4/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/007.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/008.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/online/5/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/search-button-clipart-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/французские_часы.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/_dinam.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/mobile.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/_carousel.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/_header.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/_nav.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/branches.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/contact.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/excursion.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/expositions.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/history.en.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/history.ru.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/odessa_1917_1941.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/old_odessa.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/price.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/showroom.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/starvation.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/step_ukr.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/subscribe.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/weapons.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/mobile/wwii.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/contact.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-8ee6a5315573b4e5e609c3323a37b8f1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/Button_15-128-4974dcacd4d6d09782ebe5e59f11e099ffa25bbbb5ee2a2d0d9010fe473fa16a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/DSCF2399-bcc6ee40e64f23e841cacab0be17eb85d5199522831a33dbc69dc4bec079d69b.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/DSCF2421-5be7bfe2e8fb442a2d1b2a85cc80d7f6669d4b11456f2610bfb73172fe30faf1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/DSCF2761-769be04cbda4e723c0efce117587fc2b6701816ebedf3080622cfa57d22323ac.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/DSC_5611-0f6863d5d04b77bc13ee207cb14a996f0d43e4d5ae2ab087bcdc63514e1bba2a.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/DSC_5637-d0a878f1584e816814d226ef1511b22f1aac08ac0ec08914d1d25302b65e64bd.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/DSC_5644-6db3dadede8dfb11d69fc6557b04335e989628ed9ff040e67558bb5d9ee5a169.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/DSC_5684-c962f5cc8d246141a5e24c1e80e9d5f262f9575474e1e5f17035e3a7cc6cbde9.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-204a3c8f137e79e979581c6b67abcba13fe3feb2272817abfdabe3bf3604ea1e.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-204a3c8f137e79e979581c6b67abcba13fe3feb2272817abfdabe3bf3604ea1e.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-319d73903e81dc8077d40d88cd0eb8ed8b0dc510adf6a475cffba1a5821ffd08.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-319d73903e81dc8077d40d88cd0eb8ed8b0dc510adf6a475cffba1a5821ffd08.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-61a395ffdaee6fe98be435e279096c1b893042e0be5b92657de68b83464e1861.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-61a395ffdaee6fe98be435e279096c1b893042e0be5b92657de68b83464e1861.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-bbdb2d7d5452ef734a3d7c012eeaa34e77e5cb3b6f0521144a7954c077b811d4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-bbdb2d7d5452ef734a3d7c012eeaa34e77e5cb3b6f0521144a7954c077b811d4.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-f926882750eceed9db59778a8065b61c53bf9be43a9fe4f6e55c86aa772fd92f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-f926882750eceed9db59778a8065b61c53bf9be43a9fe4f6e55c86aa772fd92f.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css.css-f9e1ffb4311c215c3606c713c81172228b940eda61d4d48c36b90ca0b1fffd1a.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5547-8c76aa2bcccd3d1932a3603cd909ce02f994cb63c10a350638debabe6c20315f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5547-91498a592cfab21ba1aca7983707f9fb4d0e4741859f042f84fec33621f67355.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5601-2bbd8dd0b89d3b63dea2080466d549167cf19680c36ac723e81c6ad8aedd3c2d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5601-e817915f6a5b285e1b6ba3bc4723946bf53f8b226433c0c48c37e5455f742d32.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5627-841839debb4bc5e28c00caf5e4c418b314ee34248c51d36618521b5f6e3cb9a6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5627-e01024ff85e912b8e064f0792c03e788d1c0e23a4c60600c51ad70b03e19edff.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5628-62bc2e1d38fbd347be56bc3091dc952b691a154f989c66b0c313076e5bffbf0d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5628-6bf577aa45252d1ea57cf4243a3364ecd022d721a2e20fe544702eedd1d0a2fa.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5655-228f281ef1467dca6bd948aeef395e35fe7ee29395587070ab0019bef4fa63ba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5655-9780192306344263da89c0740ee8a51de972ce31a09bda5c3af95b70f808987a.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5660-795c23f66d291a70f69bbc0bac96ba5b013202a6091bb561d1e21244e8dcb0df.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/IMG_5660-fe46478f30de687a216b9480c0ab27a4f9b07f330d476298bee4d5e962c9bbbf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/_-9934a590fd61b46609112e56c6a93dfc9b5f291badfcb3b8d86052579fe908af.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/__0-12d700daaf5035bd648699b53666c6e71fadfc742678bc8bacb785c4cd069ca1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/__1-7ba5b2a64075e689ec3faa798912c4bd5967512b585dc086517b763f0095c86c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/__2-bc585b91899e190e91562e405aad6eb60dc53d11690976a77f0756feeae115e6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/img_5547-dca03286ae2198b174cae536330b8534f269ab0a4f1cbafba101b107b3b4251b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/img_5601-e426891bf26e493cfa6c37ec04d023d4a545e74e956bf7fbebe0933489eebcff.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/img_5627-ceef22ab34346ae587679bf7c09e3328e0be064071c1c3c70e70c84dde3b8734.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/img_5628-f53c7a3ddf2b3ac07a6653ec2437cacc145d48cbb34ef2b3b1d7c73ce8ce5844.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/img_5655-d573a86b4c6144b65c60f50ec5f4b127b4ee570345fbaae76c7168e34f7723e3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/img_5660-42c56111bd37ade4c48b8b7d2c922264dd85f888058bd361492c901ef2ff8704.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/герб Одессы-2c4e627e4cd7e7b25b942b315a9ff772182552e7f8ef80a20813a13c06973b1f.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/герб Одессы-db41cc635fedde1f7cca2a6c944c78089ba8ee43f5da7e410f238e3efd534a60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/зал архитектуры-c2bd1c1ac6cd4e606dafabd1b76d9c7e84ef42168f878790371b3f4341f44179.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/зал архитектуры-d517344bef8f59c9ce65d59a5b90d03a9da2bcfd1ffe7e6b7ffe8c32571ad50a.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/кабинет губернаторов-3f28dbb826d02a2a5212a8556d8331ef8ecfbb67dbefd9a80a02a4734395608e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/кабинет губернаторов-ed3ebdc03b54248a8a9d178b3186d053ac314a9bc02590f834ccc4206a3288d2.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/парадная лестница12-008bf840217847b9b0ac329ecf659dfe4bc5b7cbe47a88b9e7a520bf7bec3c14.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/carousel/парадная лестница12-1a816ae514497a6192151a12b6c14580e1646057d301234ff666ba70a1959302.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/clock-a9335e067ae0566a34120734843e981a71da6f054cd1cf7601488099aebd3718.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/IMG_5559-3f28dbb826d02a2a5212a8556d8331ef8ecfbb67dbefd9a80a02a4734395608e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/IMG_5559_s-18f7ccccd55d138c4aa80f2da6904fe4a9651bc8a9113230097aa36de03f4446.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/IMG_5601-2bbd8dd0b89d3b63dea2080466d549167cf19680c36ac723e81c6ad8aedd3c2d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/IMG_5601_s-7ab16efe719c5da7f13df6b45c2417dd75f7429605a7cf5494e316f88a345891.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/IMG_5618-be45f61c8479b93e66148e65c478e6f71770e202d388929280c0eddc6c9f3ba3.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/IMG_5618_s-86850ad5b99ba077adbfcf56c4a0c380400bea6869ff812271013b7bd6ae0afd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/IMG_5641-6a17017ac75843f85a05a951740818b3dd147d0800d741ef3a0c9463a53845ee.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/IMG_5641_s-e705b9cb997230eaa65132760c01f734273693f262cf32c8a6427df813291f81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/герб Одессы-db41cc635fedde1f7cca2a6c944c78089ba8ee43f5da7e410f238e3efd534a60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/герб Одессы_s-7219ac1d4a083fd48e04caad5c32b013ea511e3bc0a5150354f5e3e35e2ff4dd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/лист 1 018-38bc1ef93b8572d1a1bc428bafa1e3b95198ed45472118774bf9cdfb71377460.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/1.старая одесса/лист 1 018_s-836e32c1005da563ecdfaffadb6a99f6dab96f1a469fd52d62281cda2559d82c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/2.оружие из коллекции музея/1-33fed8a9499bd862deaeb35fc819999736f7609b37f357dc296d1db71e0b44fa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/2.оружие из коллекции музея/1_s-5f0f26f1fbd3595eecf1d52a8b86693fcb111ff1dffb6307423aa833f1bcfdb8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/2.оружие из коллекции музея/DSC_8671-1e32fc1797ee7eda8240fcda6663b1fe958781deb1e1f416c1c0546ec609c883.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/2.оружие из коллекции музея/DSC_8671_s-33d0b943828f2c8220cb8aaad21f163ad35c35d8b270662abc235d29a4c04e3a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/2.оружие из коллекции музея/DSC_8673-f352352433e518a26d9dda6d62ae0bad409ac12c04bce09e8b1d870a04e0c120.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/2.оружие из коллекции музея/DSC_8673_s-a17bc275f627ed0e22791cdfdf55a2d1ba639226356b552bfce8b2aff91f6be5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/2.оружие из коллекции музея/IMG_1193-0ba8129367e684850f5df7aa26dde16e277e7015eea4c4015dea81692fede5da.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/2.оружие из коллекции музея/IMG_1193_s-bdba1439a8158b6eaff1b27bd49d6ad3413ad1005775a3d64937fd88474d9b66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/3.одесса и край в годы второй мировой войны/DSCF2323-8e5c85df31873ceb30a603d9ee2312fa4b4763801a67f751711c537a0c9ea42a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/3.одесса и край в годы второй мировой войны/DSCF2323_s-4a8f8a4e768f481280d3356eb55560c4971beb8415b1ecc077a202bc07142b59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/3.одесса и край в годы второй мировой войны/DSCF2330-64fa098a81b89e755edd93b95a48cfd1320a9bc6ad2b6fcfba75056e02872c5b.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/3.одесса и край в годы второй мировой войны/DSCF2330_s-80805332a63380996f50f6f9963baabb6439706933705cc7790cc45b6ded881a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/3.одесса и край в годы второй мировой войны/DSCF2343-bb521751f24a17cf0c393b2595e9984a5d93581b78c26db10c0881d78cc6df8b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/3.одесса и край в годы второй мировой войны/DSCF2343_s-471a748affd138efe23df9b6d4e9b02f1f674604734b498edc95decf30faa291.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/3.одесса и край в годы второй мировой войны/IMG_5628-62bc2e1d38fbd347be56bc3091dc952b691a154f989c66b0c313076e5bffbf0d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/3.одесса и край в годы второй мировой войны/IMG_5628_s-092ef2d9043a78eb6e40e5fbbe2008465d90f5b53c8cfa745a0cdbc39af6f07f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/4.одесщина 1917-1941/DSCF2803-a35fc0a418751c25e8033614b65848822d7e5a665c4de0507536f5b982e6de88.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/4.одесщина 1917-1941/DSCF2803_s-c840828c5b182b91e183731cceb59e0156fb00e08ee3ecac0f9b0c3d302ae10d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/4.одесщина 1917-1941/DSCF2804-d82b899037d62ce2b9f05958ef545c69fc1f9b6daa2a0c4f7f91eb8779a97379.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/4.одесщина 1917-1941/DSCF2804_s-3041425361971025ff1b205dea1e691d9cc6c0c7e56b34fdf2faee42642b2870.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/4.одесщина 1917-1941/IMG_1244-f5201804db468b165f6ec800e8bd9a00390c349d8b6675ea519237e29d60ca59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/4.одесщина 1917-1941/IMG_1244_s-2b6e249a3b884ba637c371ce79a66cc8004bb527572372144bf95c517714cfca.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/6.музей степова украина/IMG_5650-094b90856dc03de3bb45b59320d475200f2c2f7fb9ddc13eb9501983c94c5276.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/6.музей степова украина/IMG_5650_s-1c312791eebdf65140182c108239b3ad1ed231aec80f79d5d686ccab3e41cd74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/6.музей степова украина/IMG_5655-228f281ef1467dca6bd948aeef395e35fe7ee29395587070ab0019bef4fa63ba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/6.музей степова украина/IMG_5655_s-fc4226001eae44846e4039dfd46a3181356d8fcaa15cb6d6496aaf478cc5a2a5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/6.музей степова украина/IMG_5660-fe46478f30de687a216b9480c0ab27a4f9b07f330d476298bee4d5e962c9bbbf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/expositions/6.музей степова украина/IMG_5660_s-2f740e513b9bede72b5e15453850ddf0119b3c83896bb77116dc10f6b2a6bf21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-62fcbc4796f99217282f30c654764f572d9bfd9df7de9ce1e37922fa3caf8124.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-62fcbc4796f99217282f30c654764f572d9bfd9df7de9ce1e37922fa3caf8124.eot.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-63faf0af44a428f182686f0d924bb30e369a9549630c7b98a969394f58431067.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-cef3dffcef386be2c8d1307761717e2eb9f43c151f2da9f1647e9d454abf13a3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-cef3dffcef386be2c8d1307761717e2eb9f43c151f2da9f1647e9d454abf13a3.svg.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-e27b969ef04fed3b39000b7b977e602d6e6a2b1c8c0d618bebf6dd875243ea3c.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-e27b969ef04fed3b39000b7b977e602d6e6a2b1c8c0d618bebf6dd875243ea3c.ttf.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/head_en-173bc4d326dd4d32ccae1707b18695441b84bff492326a560526aa019d2fa9fa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/head_ru-144cf9822e2d1987cdbcacc99b94bae758786eb292696a1fbf1104d232340a24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/head_ua-f4b283e57c1bba79f079d60b5644c307b9738b6188a5fbd2b25dda86a876241e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo_social/FB-18ab8dab6d9080b2d336e712060d758dd22ef41bc995d906858dd08ba612326d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo_social/Twitter-bf63a6feeb14b4286372546313ac7ccc201b07b340cf2b6772611d0cfa588739.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo_social/VK-ddf91a4ae77cef571810e9d46b18afe1a17a6e9c02712e2c8822ea84b29abd1a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo_social/tripadvisor-logo-black-fac963fae1b590c57704c26b793ba2bbca084c69dd62fe6c3587d2768f66a6ce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo_social/tripadvisor-logo-classic-0faa3a178376a9c74dce73faad5d96cbb7bdb014a05b6e762fb8508eca7336eb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo_social/tripadvisor-logo-transparent-9aca6f17d71833d39152f2dd677466f00bfd2d650c9a15cf8edce04db81f0bd3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/logo_social/tripadvisor-logo-white-134e9986a8a7d5ef88bec7f3c68a9c71d052e77600c5d2c5b7982ed1fad6ed60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/marble_1_17-08b6252b9eb1d5289eb1862f17ae5718e33f67dc4a7525ee2606b475f4b8e44d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/mobile.css-8a32590c43a41bcd6a3c490f7639981efc711f2f5dca363262f4ae5de987322e.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/mobile.css-ba3deb8ea419321e1f78f284af299469dcdb69c952bd2531cc24f1eba485326b.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/muzei15-b2099cdc611d983df76d617889fcfd8ff8f454643702a41d89748c4ba5036ec0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/muzei21-c99114dad93eb3b80ecc8bca91f83ad46ef1f705c954b963c9f9dfa94a518926.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/muzei23-b719c7c0105efd3b67e966984c214a79797e5fef65b4dcf0ae3bac5178108b62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/001-dd5125d22bd2829222e3c5b207f523e17edd172718f2c8391a1c8590ed170f19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/002-4bb0ecbdb6e86134a19965d7b8f809163a7173bd609688cb8df39816ac6a08c7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/003-c3d48e69a80c2e8ad2d68e09173e378fdc7994058c7eab6554a10eecebeff590.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/004-f712e5d6f5929d39876c0d7263883fb3e241f4954e469446297c509050614adc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/005-98e9a829332f0aaa59e0575d2d434008afd07dbfdc1307c2bc547f3796140f54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/006-fbabd4de1093fe202e9ba23ae02af9bc27216967b8e7b679ca4785bc023715cb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/007-ab4d5597c17a02de5426d0476229388b611e15305a3bee7e56178b750c9a9c8a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/008-6a287b2011af1e215979da9798ae06a320e6d799a7649da2985688c1775c1c74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/009-9a4c6359efb7a2386cf897438d18c565d29f659916ed7c25547001c15bd91d78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/010-80b5c056963968ac68c3b467ccf05064e1885a998229f93a660770a3e9efe42f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/011-71e591f0fca00b4e6a8b4bbf8966dbcff010ec78b33f4cb217f8f40247a39012.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/012-da3febf6c0d972eaa6428099d6bb3fa6c269cceaea9a5e7f31a99f080fdb0016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/013-ce1fa492a0e0f3ce952c78837fed3489277e7739b7f23bd1e8f7828e2b21eb82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/014-2ec99003a0280eb8b82c3846062ee01a7c0692dd0c52661ff1fb63b6100f11d5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/015-6e0a82787292a3092b0fe4af1e7c8571c70c382dea57ff70ca3801971270ccd7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/016-5f059d8206576cd770994edf0fc95b624983b307932020467fc7dd77b2e426a0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/017-c6087138c950b40165fad5138c04cf64d9f602835ec98ed3b9f05527cbb74038.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/018-0766f21d32ca5fa57786cb9677a54b337670ce4acdf1b5b89703da8bb2329307.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/019-d9ad1fd2e4d5301b87656e6e3a84d4a8966ab4a97c84515176712c6984338b25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/020-625c3c707f87a7a028898f3b6c037ef10dcc51552ffe4e71651afa0f088bfd3d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/021-4f6cd7cd16fdb723606374d0edb6ff6f7fb62c7ecfef82e9b8b70a9f6a88ab91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/022-776384431cfd40d23bcab0cbd6e671ca49057d94521d94b95d32f8eccece1f08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/023-81512984dd55f5466dc17b5f364a394ac7658f014c721d5a339fd513e2f126ab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/024-977a0114c42050d7f9d10cbff66832f40eab800770fef857d888c44027f5f3ef.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/025-5f35388847b4a9919594abdac0b370f0d4d5566611cdaaeacfc188464798bb3c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/026-95092707f4ed209e71497ee3c2d059fbd01bd8688a4e2dbdd16e071fc53c74a9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/027-2f120e9eb996fd1c8e71ae5593599617efa3694644292f1ed799f533368eef19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/028-a6193e6d1580a72d122819340606d4884c1be035bbd02421e9b6ce12de6886f3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/029-20426d516d5f32e24918f087d28607726067d8e1491fa90fe3af315aed79dd23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/030-d9f17fc4c98a721fda7ee54f4da337b9bcb682d21593c1c2d115098b118553ee.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/1/1-a217a429ca5e6e9adae5c303ed79182fc16365817b629704e4a9379fca111aac.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/001-6b7c6ec6e060ae3c56e31fde98413bf43de302e34182b695a7e3d0ba3322d94a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/002-b083544df77ee444fc7bc10f354d16dba6117fb31c2acdbcc4f6d7cdca5f8edd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/003-5d3e076a03d91d77de9abf9effa5c1420c3eb89a343fc32be8cf867a86d4f828.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/004-117ee1e4b9e2e8541805241dddbfd404b3b4c0beca55f32bfcfe0e5905c536dd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/005-ee0d304c6f2bf0896a9c4f89da141fc416260f61e4a20200854053e595f3d154.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/006-a7d4a91ee0f0dcbdf99bc64f531f44878e03489bf27681fd9cdb61582ca83698.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/007-2bf70b835ae2a6dda451d12c689e2a56e7be1e73985830ff2cf460de837d2e2a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/008-cbf4e217031f1243fe1ab783b1d8df1df1d008240d8ca91684653803298c11fe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/009-13b400cdc86ae007772be277ac3ccf4dae00d1637d52a8fe0da5841d8348ee19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/010-93309c2e3135215833d8a8407430f17fff1e28ca4076705787d2fa44ab70b02f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/011-720c30faeea0652694afeb77ca1fcb72576425d38b1243d52a202f07d9f438a6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/012-04b439048fb947f19ec155224cbaaaa65124be4780c0f52076707fbe658d2dae.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/013-be765baf3fe8e8f31bb994d12eae08db3c0bcd05844a45f49548bf661b6dda01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/014-3dedad38474d0272e014d8ddc8482b7959e7069677c2db2537824a759ea2fb5f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/015-9013ed7e91c380f78041c461b3f10ae22bfbd86179d4610859493b23761ae3e3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/016-514b98080fcbc8c1801ed663c791a5810396ed12b4b64a442324339fcc6c9db1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/017-facfb6a0eeddb15470164b48ab5ea4c3eea0f4e6af31633cc54f4ae907dfb3f0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/018-15d6390489961a5c2461167fd7ec109f2bc7bc008b4776f663584af836b205e6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/019-899f7931f39d0e9c86f1f1f995d16e21a3b10962170407be5663b3d3322a657a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/020-39d99f5cfdd8f661c0609fc9884a81e065e080524d010163ddf2c9f681fd7c9f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/021-830da7151635beae52ad1bf9efc74eeb0403c9216a7a16be1a5053aff6d43e66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/022-503e7b6d442e1224afa215372796ce685140de4b16a35ed7daf461cd3d857641.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/023-390098d790984947c7d4f40ea7583588310e751bc56b33da03c00c9a677359af.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/024-6cba5a8b7cc63761fefcefa46283ad69e7f28c0d331175817d13a8803692263b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/025-3501b1d33b8d9abc652865d2993ce12242a1b4ca289e1d255bafdc515c514f12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/026-29b0f26970864a69e6d9add9f5c22896ad44a1647edf2bee25a444033b16082b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/027-2cc7c10d865c4fd508abd8ea0b73a08536fdc42904a0191e2c1583dd10f929dd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/028-aba4292ab1029430bd4666de7a1e5cb5bd49c5dad93235dac83731106303d765.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/029-15115e1af50f2f10287f563f804c7734ab867e6d63c854bd20676683d29e0bea.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/030-7122944f86a2f350ef4653b7e8c895a9b902eca018951abf084a1566caa32330.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/031-2dcf38c05bfaaf5ed775c160706dc3cc5d9a1083a7907bf5bf2d3974d1eb1f11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/032-d27d16253cb3b689dabefa242d8be1d379c84bc870f60fc3348786a992f13c65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/033-8c457c22bd39297e79e5a23c52299473705f6b6efd812f88e9d3d529d0d1a69b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/034-09d7d3ff74d8209bc94ac5c78078ed04db570cece4412f286ad86c39566ecd52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/035-49311aa84faf1877c30dc82cc88b48719b647ce5ce57ac3cd97b990ad43dcbc2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/036-a2128246e834ee3fbb541a78f2e3e4c39c322ad4bedbd7be1cd3a8e01bde0a49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/037-814663f753d790331738b827f3c728568b6a9a3110e064ce4047bc72d323f630.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/038-728e8569fe952d2f9384cca35408e870356d385c981e703aeac49c86a9ba7dfb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/039-c64143e8372dd382ea2c180c0b7a35ac7813277019fd928b50660af603891993.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/040-90c48d7e69b03e23b8fd5e722913c998861d4bd99bbc127370b7aad3b587d660.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/041-13ed785e41a99f042ea120d84b5fc0ea081669dd35570b78417e01cb78b27ef7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/042-f38214d6c7f10676dee25281e1ce0347d77ccc8d5595c0bea5e3e7db1879524d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/043-09feb0871746a805538bf29c4ff88f5313e89c49c695b40fd122d3c0fd3a1e79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/044-604bd05b1eb2699915bb23ad95729ed220c5f5486efab1e27b76da649f182055.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/045-f43dce93d669ad1564da47d04a5495dab1b5e9721cd6dfb9a5765d03cc021769.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/046-a6757225b272e94f4dc18ee7bed42f33d0dd6e18da54944a71a2164cc868c01c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/047-3ebe9f73ca75f344ef6220afa98adcde88b939e52d94177c0ea5991235b54cb8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/048-07cee921f024ad819c770153ef3a8820b079bf250140a49e64eef9c3c2e6476c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/049-14ec2f95ca2e38133456e5eb325668e295c9cc01e35cb1217d3ec4c07214d2c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/050-11a938ee39f6f48784cb85926239f07b1747bc1f791e2dba0c77f55353008278.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/2/2-c6844916b5629481a37e5fa79f5b469aae5b99bad36baa5743cac598319d7bec.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/001-324a37d5168f5b8fa299cdab1cb5babc6385dc043e472249ea6b61fc8d4d9ad6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/002-fab9872bd0ed1abfa712affbf5dc18db13239907438a6a8f36c7a03a563de224.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/003-f44f3e93568852b1cdb6b88078b65e23090f3eb0c86812e74540978bd8fb7e15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/004-18f316f498125310f91299bd85b8781f1dcf82ca36d5b8c051e70be3e0a0d266.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/005-bccab578e7db3e973cfebdd0aa1ecb6efa34ca5fa71c26405b79cf61a82c43cc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/006-83da6035baed85b849f41d712451292b304e372ad2d11ee5a8e7cb64447b191e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/007-a2ac1f4369c5e6072013c29947890fdc043b6965aea5c7cd6e246f46e9da03fb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/008-550c38dba9b761ec9a9ab0060ee67db09a8ae9b4c5976eb615410cff1a0d8077.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/009-977481c25f82da9d68dc660029c293d17c9fc727e592481f39b840f4f1d99f26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/010-b9e9739369de1924db8724c7c2a7b2a61d8a3cb300d2e642d9b9b7aef4457fca.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/011-5cb668959324b66c6a95a1d954be4af2bc96f01df41f8c4ed8ee7fb2ab19f47d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/012-ccf5b80e2e519aef5a8261c050e8e59acd8fcfa705bb934220fdc1854e609faa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/013-be8802b631bb6b49476b2e6693692131ccec4cf93110f382961e24709a2532f0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/014-c0428be37b75c7184216e66430e32524f534d6cdadd4da9cf052debd15c0a097.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/015-bd9b4f56855a706636a96dd26e95507558c32b13d7ba89baa455e294edadaf74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/016-18f46ed2b48f9de2c4eb1869f13668f60d846ebced51fa9ff729baa6c66fbd76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/017-3f831b6a06949cd4644638c745ab10c5e1ee063f249c3bfe7a1581919db5e8bb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/018-47561fe7420510ed12452dae0f462697fcebe23f930abf2ddace75f826f3e598.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/019-9183f0eee85cf644c6b8340242e2334c417f93d902c99f9b5c4b5ff4d609bf7d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/020-2748165f3b6e4509c381c143d4febe773395e4e34a9512d7320233b0aa4ce03f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/021-239dfa46bb541383afcaf371d8c53ed2d6d0166b168ab12b93a4144c02f25ce8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/022-83a680fa2f66925e36970d55e52d815af8da8baf52d4d1a3961dc61e8f4c664e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/023-54d96e0cbfa34e7eb08e8066414cc9096df917c1de808bb3ed2418765026fdd9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/024-f4c8f56ba52241b6222a49609e9d2d0416f52bd06791bb10a4df5579ebd9e4dc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/025-d4321196590a31dc8fa4bdecc641cfb79bceffc95fa1f8e8c3d346f7c6fc0ec6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/026-13b9bdf91181c07ca9a8a3332c0d1d1bc3fac2fe1e9b4efd263815eb413e3331.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/027-50ce2d9b8dc022799e7bd2bf85ca66651988cc01bad2e99d87bdbb81035b834b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/028-6b8cc40fc35463988ebc822738fb30ad01eff8b5dde45ff80c979da624324fcf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/029-ff6e1609762b25a6431444bea26f3cca64588bf3ba4dfce673ae911f50e1fc88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/030-018437308e554d7534477b55fa6d9f1f931f414947aa35cdf01ed9a6acfcad3c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/3/3-6b3ba64fb633e6a241b869a9506e772800985861577fe067356f5f9449979854.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/001-d694a5fa6b47f34f7082f214f82e3e7755bd1916fcc9276956b7cef08e0d08d9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/002-534681c647adc6d79251d4528fae46ca5f75c3324fa1d9e7cb98a8d0d9f004d7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/003-24411fa0ffea25106d4ad6047529548a84019c40524db139de5c52ee572a2b3d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/004-c014e1b5441ca352c1e753cdbbf03e93668d65ae385c60760ba56f52f4fee4ae.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/005-117c5bcc945c7121b8a39db5fe8fbf48a115c8cb14681cf4aa849b0bb0592535.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/006-218e44ea2d4af2cbb4bd02e84dfebe317fd5f1dbd9b4454e7a3b6a13c5714a23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/007-e7cab0787fca94c7448d91a0f1ddd70c953675d74136de40fea87bd620e5e5d2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/008-3a9a0c126e90395640e841eeb429038378b159416c2461eb5d5a51b467dd08dc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/009-f5cfa2285de6565b03d3897c9c2ff7ef921463a7a33ab5d5299258619aae4aee.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/010-aeabbad5511f41da4f7575b887f6bb6c166c5df3db53a6e84b6d738d49eab77b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/011-18edf9847a93ad211dee14cd41b6179b82b9176c362fda44b00d157fd761740c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/012-9516a12a8f5c6394d0c493fc4b4a2dc856e1369e97a32267cd13ebcd0f5c1e39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/013-ebe02cbda1d50a97f1cce49f503fadd2b71114269fbde051c10798ea540ce1ed.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/014-4ac1b55c6f76ab041d22b79aebcacdd4b4cc95f946337e154daabd3d60370d52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/015-c57293e5a79354c03887c09645cd6f14953a0474df4ed3b7e26d93b39aa324b6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/016-75fd0626ab6764792e633ce0949a98f94e1066eb2dc0f21b69ed044f2328aff9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/017-f9c2bd64c2b098c84a69cbc7b18306d50c1272df88c203384e63cb00dc617b37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/018-6c0a5078c6c9de7fa02a3c1b81a20b66685d8526271115f9499dc534e0ab5354.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/019-ab4644e9f34c15d546e9ee7c4c6c2d0763ff9af84678945b9ed3206f745a66e1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/020-3bc22c7a836ae452b4e6220e4f593fa9e03c0469f4f4dbad1afb19347b93e739.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/021-88be7b66e0fdea29fa2f158871a72c0697d5a9cd9876ba78c405d6eec79a6cab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/022-40ea88f445bf05d1da61490a14b56b774111f04f89ebb7c9150ac1af025be645.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/023-071263f218aaa2bff690c433f5be0a685ae2c4162305859f29b92fb6dbbebbb3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/024-734dae531edf6abf59c4fad6adfe271b80d9af3ab97f5666b4a9fee1376e0983.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/025-35e353f5f8a59ec0a5093f2c6a38da2d9e743557b120af374233ea0c9f21d29f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/026-e656352fb1193602e6bc1c6d8878f611944f7980d08e80adb4524c0a712fb6ef.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/027-7f44f68b5232bcfe6d9e471c765691d17dc8dc945d0b67fd675f9a2a8dcfaab5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/028-61bab3f320b505ad5f70e078b2538b4da2d8105afc21ff7ec12fd1b11355bbcf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/029-037c920f837b9395900d6e6ca25b49081d4cdc8e2e1e1deec0ed4a6eb0b4ee25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/030-db1d00f06a95d02edaeacf0ce2ea24c09128cdc056db4e7feb72341ead0c66c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/4/4-0e91f381483eb85eb0d6d6f945a5d3a413a059d4b89624b2d0877c26b8f450fc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/001-ece494788ca7f7a8fc9678a6b0865c67ab6afafd44495d873b6a57329b4f1f24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/002-e46ec2a2fe9a355aef0d9d19e3ddfcf27f070c68e63be75156d8816af0716265.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/003-c23c165f99b77c1b9ab4b72846b0e327db893c7d75a58d782185f0a0beb81c9e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/004-e1978b56f2a3ce2daaf1d532b130933db4f703893876d36d78b88d304cf33cd8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/005-5df78c570f9c363643dffcc9cf892d093e8c92dfdd9b9ab7ba0fde88b2c1377c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/006-a998be2f086cc8dc4551060ed043ed0886f7fd7154deb1a71d9ef4f41d51b4b8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/007-6b7e74b2644c32fd7709686dd4bd87e53351adc44dd115b11396209cecb4244e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/008-619ceb302ad4d42a41a2e817c78717bad7ffb72454d9f9ded047cad129fc41d0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/009-b4483a0ca54a957d3d7f22ce9a9a42e7e0edfdaeb2a2d87f358dff1c05083b6a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/010-e6a2cae9ee259a9b13ed804fdda3979f6d4fde9af238789d34f0e5d4a6425daf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/online/5/5-3fe6564c94f9e79916c6ec2f873eb61e06f92bb66fdeb1c7f2b4f891d37fd014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/pages.css-811048a5706fc199a2dec890a5f5289e494e5b02fb602ff4caf14ca8461f1b95.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/search-1196f4a420915901e76b8eb4b46ba5bb5dfa4ff047e6f681d208598b3d82d86e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/search-button-clipart-1-96a9ec563bcf1a15f6054009fd0197b468acecbd3649cf2b23ec4718a3c71ceb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/французские часы-4df0dfc1e4c22d0c763e7eb063c331b9b06a50ce0a62d006a5eb96688c5335c7.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/французские_часы-4df0dfc1e4c22d0c763e7eb063c331b9b06a50ce0a62d006a5eb96688c5335c7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/шапочкаАНГЛ-173bc4d326dd4d32ccae1707b18695441b84bff492326a560526aa019d2fa9fa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/шапочкаРУС-144cf9822e2d1987cdbcacc99b94bae758786eb292696a1fbf1104d232340a24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/шапочкаУКР-f4b283e57c1bba79f079d60b5644c307b9738b6188a5fbd2b25dda86a876241e.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0896ba0d4bd76e7b4906674aec425ec5c8986c07/application.css.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0896ba0d4bd76e7b4906674aec425ec5c8986c07/application.css.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0896ba0d4bd76e7b4906674aec425ec5c8986c07/mobile.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0896ba0d4bd76e7b4906674aec425ec5c8986c07/mobile.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0896ba0d4bd76e7b4906674aec425ec5c8986c07/pages.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0896ba0d4bd76e7b4906674aec425ec5c8986c07/pages.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-bb0c7c2fe8ead782d16a6320216f3c1bd7ff657c6f4ec5f7a168f57003df0d87.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-bb0c7c2fe8ead782d16a6320216f3c1bd7ff657c6f4ec5f7a168f57003df0d87.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.byebug_history" afterPath="$PROJECT_DIR$/.byebug_history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.css.map" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mobile.css.map" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mobile.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mobile.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mobile.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.css.map" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/expositions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/expositions_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/messengers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/messengers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/mobile_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/mobile_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/client.rb" afterPath="$PROJECT_DIR$/app/models/client.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/clients/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/clients/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/expositions/index.html.erb" afterPath="$PROJECT_DIR$/app/views/expositions/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/expositions/show.html.erb" afterPath="$PROJECT_DIR$/app/views/expositions/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_contacts.en.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_contacts.en.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_contacts.ru.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_contacts.ru.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_exposition.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_exposition.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/messengers/show.html.erb" afterPath="$PROJECT_DIR$/app/views/messengers/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/history.ru.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/history.ru.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ru.yml" afterPath="$PROJECT_DIR$/config/locales/ru.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/simple_form.ru.yml" afterPath="$PROJECT_DIR$/config/locales/simple_form.ru.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/simple_form.ua.yml" afterPath="$PROJECT_DIR$/config/locales/simple_form.ua.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ua.yml" afterPath="$PROJECT_DIR$/config/locales/ua.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/history.iml" afterPath="$PROJECT_DIR$/history.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/railways.cache" afterPath="$PROJECT_DIR$/railways.cache" />
     </list>
     <ignored path="history.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -850,8 +94,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1335,92 +579,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="initializers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orhm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1813,14 +971,7 @@
       <workItem from="1493106871609" duration="145000" />
       <workItem from="1493107056036" duration="2763000" />
       <workItem from="1493121137294" duration="3164000" />
-      <workItem from="1493305399626" duration="355000" />
-    </task>
-    <task id="LOCAL-00059" summary="add articles">
-      <created>1481888038105</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1481888038105</updated>
+      <workItem from="1493305399626" duration="446000" />
     </task>
     <task id="LOCAL-00060" summary="add articles">
       <created>1481889006960</created>
@@ -2158,11 +1309,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493124131003</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="2nd commit">
+      <created>1493305794414</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1493305794415</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415036000" />
+    <option name="totallyTimeSpent" value="415127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2182,9 +1340,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3020031" sideWeight="0.5219331" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4489164" sideWeight="0.4842429" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38058552" sideWeight="0.4936803" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38058552" sideWeight="0.4936803" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3020031" sideWeight="0.47806692" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3020031" sideWeight="0.47806692" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2280,7 +1438,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="2nd commit" />
     <MESSAGE value="pictures" />
     <MESSAGE value="fix&#10;" />
     <MESSAGE value="com" />
@@ -2305,7 +1462,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="translate" />
     <MESSAGE value="black body font" />
-    <option name="LAST_COMMIT_MESSAGE" value="black body font" />
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2504,6 +1662,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2560,6 +1719,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
           <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2567,6 +1727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2574,6 +1735,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2683,8 +1845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
