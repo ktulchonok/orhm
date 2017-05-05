@@ -23,7 +23,7 @@
             <li class="list-group-item" id="price">Экскурсии и стоимость билетов</li>
         <% end %>
         <%= link_to subscribe_path do %>
-            <li class="list-group-item" id="subscribe"><%= t(:subscribe) %></li>
+            <li class="list-group-item" id="subscribe"><%= t('subscribe.button') %></li>
         <% end %>
       </ul>
       <%= yield(:information) %>
@@ -40,7 +40,7 @@
             <%= cl_image_tag 'французские_часы.jpg', alt: 'nothing' %>
           </div>
           <div class="col-xs-6">
-            <h4 class="text-center"><%= t('about') %></h4>
+            <h4 class="text-center"><%= t('about.title') %></h4>
           </div>
         </div>
       </a>
@@ -48,7 +48,7 @@
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <ul class="list-group">
         <%= link_to history_path do %>
-            <li class="list-group-item" id="history"><%= t(:history) %></li>
+            <li class="list-group-item" id="history"><%= t('about.history') %></li>
         <% end %>
         <%= link_to expositions_path do %>
             <li class="list-group-item" id="expositions">Экспозиции</li>
