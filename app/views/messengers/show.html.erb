@@ -52,10 +52,9 @@
 
                             var i = 0;
                             do {
-                                i += 1;
                                 article[0] = article[0].replace('`', '<span style="font-style:normal;color:#1582ca">');
                                 article[0] = article[0].replace('`', '</span>');
-                                i = article.indexOf('`')
+                                i = article[0].indexOf('`');
                             } while (i >= 0);
                             if (article[1]) {
                                 article[1] = article[1].replace(/`\(\d+\)`/g, '');
