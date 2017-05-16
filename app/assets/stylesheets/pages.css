@@ -366,7 +366,7 @@ body.desktop {
           font: italic 17px Candara, serif;
           color: black; }
           body.desktop #exposition div div a:hover {
-            color: #3aa3a4;
+            font-weight: bold;
             text-decoration: none; }
         body.desktop #exposition div div p {
           font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
