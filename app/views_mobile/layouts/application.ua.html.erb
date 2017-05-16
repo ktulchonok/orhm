@@ -26,7 +26,7 @@
               <%= cl_image_tag 'кнопка1.jpg', alt: 'nothing' %>
             </div>
             <div class="col-xs-6">
-              <h5 class="text-center">Информация<br>для посетителей</h5>
+              <h5 class="text-center">Інформація<br>для відвідувачів</h5>
             </div>
           </div>
         </a>
@@ -35,13 +35,13 @@
       <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
         <ul class="list-group">
           <%= link_to contact_path(anchor: 'headingOne') do %>
-              <li class="list-group-item" id="contact"><%= t(:contacts) %></li>
+              <li class="list-group-item" id="contact">Контакти</li>
           <% end %>
           <%= link_to price_path(anchor: 'headingOne') do %>
-              <li class="list-group-item" id="price">Экскурсии и стоимость билетов</li>
+              <li class="list-group-item" id="price">Екскурсії та вартість квитків</li>
           <% end %>
           <%= link_to subscribe_path(anchor: 'headingOne') do %>
-              <li class="list-group-item" id="subscribe"><%= t('subscribe.button') %></li>
+              <li class="list-group-item" id="subscribe">Підписатись</li>
           <% end %>
         </ul>
         <%= yield(:information) %>
@@ -58,7 +58,7 @@
               <%= cl_image_tag 'кнопка2.jpg', alt: 'nothing' %>
             </div>
             <div class="col-xs-6">
-              <h5 class="text-center"><%= t('about.title') %></h5>
+              <h5 class="text-center">Про Музей</h5>
             </div>
           </div>
         </a>
@@ -66,13 +66,13 @@
       <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
         <ul class="list-group">
           <%= link_to history_path(anchor: 'headingTwo'), class: action_name do %>
-              <li class="list-group-item" id="history"><%= t('about.history') %></li>
+              <li class="list-group-item" id="history">Історія музею</li>
           <% end %>
           <%= link_to expositions_path(anchor: 'headingTwo') do %>
-              <li class="list-group-item" id="expositions">Экспозиции</li>
+              <li class="list-group-item" id="expositions">Експозиції</li>
           <% end %>
           <%= link_to branches_path(anchor: 'headingTwo') do %>
-              <li class="list-group-item" id="branches">Филиалы музея</li>
+              <li class="list-group-item" id="branches">Філії музею</li>
           <% end %>
         </ul>
         <a name="about"></a>
@@ -90,15 +90,21 @@
               <%= cl_image_tag 'кнопка3.jpg', alt: 'nothing' %>
             </div>
             <div class="col-xs-6">
-              <h5 class="text-center">Выставки<br>и мероприятия</h5>
+              <!-- TODO: translate (ua) Виставки та заходи -->
+              <!-- TODO: translate (en) Exhibitions and events -->
+              <h5 class="text-center">Виставки<br>та заходи</h5>
             </div>
           </div>
         </a>
       </div>
       <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
         <ul class="list-group">
-          <li class="list-group-item">Анонсы</li>
-          <li class="list-group-item">Действующие выставки</li>
+          <a href="javascript:">
+            <li class="list-group-item">Анонси</li>
+          </a>
+          <a href="javascript:">
+            <li class="list-group-item">Діючі виставки</li>
+          </a>
         </ul>
         <%= yield(:events) %>
       </div>
@@ -108,7 +114,7 @@
         <button href="#"
                 class="btn btn-default full"
                 style="color: #909090; border-radius: 0 !important;background-color: #1b2e34 !important; border: 0 !important;">
-          Перейти на полную версию
+          Перейти на повну версію
         </button>
       </div>
     </div>

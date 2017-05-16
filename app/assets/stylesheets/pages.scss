@@ -463,13 +463,17 @@ body.desktop {
       color: #000;
       text-decoration: none;
       &:hover {
-        color: #3aa3a4;
+        font-weight: bold;
         text-decoration: none;
       }
     }
     span {
       font-size: .8em;
     }
+  }
+
+  .news-author {
+    color: #3aa3a4;
   }
 
   .news-content {
@@ -553,7 +557,7 @@ body.desktop {
           border-bottom: none;
         }
         a {
-          font: 18px serif;
+          font: italic 17px Candara, serif;
           color: black;
           &:hover {
             color: #3aa3a4;

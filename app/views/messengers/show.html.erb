@@ -24,7 +24,7 @@
                   <%= article.title %>
                 </a>
               </h4>
-                <p><%= article.author %></p>
+                <p class="news-author"><%= article.author %></p>
                 <div class="modal fade"
                      id="myModal<%= article.id %>"
                      tabindex=" -1"
@@ -46,8 +46,8 @@
                       </div>
                       <div class="modal-body" id="ModalBody<%= article.id %>">
                         <script>
-                            var article = "<p>" +
-                                "<%= process_string((article.text || '').gsub("\"", "'").gsub("\n\n", "\n").gsub(/(\s|\n)?(\*\*\*)(\s|\n)?/, '***')) %>";
+                            var article = '<p>' +
+                                '<%= process_string((article.text || '').gsub(/'/, "\"").gsub("\n\n", "\n").gsub(/(\s|\n)?(\*\*\*)(\s|\n)?/, '***')) %>';
                             article = article.split(/\*\*\*/);
 
                             var i = 0;

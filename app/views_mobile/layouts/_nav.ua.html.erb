@@ -9,7 +9,7 @@
             <%= cl_image_tag 'французские_часы.jpg', alt: 'nothing' %>
           </div>
           <div class="col-xs-6">
-            <h4 class="text-center">Информация<br>для посетителей</h4>
+            <h4 class="text-center">Інформація<br>для відвідувачів</h4>
           </div>
         </div>
       </a>
@@ -17,13 +17,13 @@
     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <ul class="list-group">
         <%= link_to contact_path do %>
-            <li class="list-group-item" id="contact"><%= t(:contacts) %></li>
+            <li class="list-group-item" id="contact">Контакти</li>
         <% end %>
         <%= link_to price_path do %>
-            <li class="list-group-item" id="price">Экскурсии и стоимость билетов</li>
+            <li class="list-group-item" id="price">Екскурсії та вартість квитків</li>
         <% end %>
         <%= link_to subscribe_path do %>
-            <li class="list-group-item" id="subscribe"><%= t('subscribe.button') %></li>
+            <li class="list-group-item" id="subscribe">Підписатись</li>
         <% end %>
       </ul>
       <%= yield(:information) %>
@@ -40,7 +40,7 @@
             <%= cl_image_tag 'французские_часы.jpg', alt: 'nothing' %>
           </div>
           <div class="col-xs-6">
-            <h4 class="text-center"><%= t('about.title') %></h4>
+            <h4 class="text-center">Про Музей</h4>
           </div>
         </div>
       </a>
@@ -48,13 +48,13 @@
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <ul class="list-group">
         <%= link_to history_path do %>
-            <li class="list-group-item" id="history"><%= t('about.history') %></li>
+            <li class="list-group-item" id="history">Історія музею</li>
         <% end %>
         <%= link_to expositions_path do %>
-            <li class="list-group-item" id="expositions">Экспозиции</li>
+            <li class="list-group-item" id="expositions">Експозиції</li>
         <% end %>
         <%= link_to branches_path do %>
-            <li class="list-group-item" id="subscribe">Филиалы музея</li>
+            <li class="list-group-item" id="subscribe">Філії музею</li>
         <% end %>
       </ul>
       <%= yield(:about) %>
@@ -71,7 +71,7 @@
             <%= cl_image_tag 'французские_часы.jpg', alt: 'nothing' %>
           </div>
           <div class="col-xs-6">
-            <h4 class="text-center">Выставки<br>и мероприятия</h4>
+            <h4 class="text-center">Виставки<br>и мероприятия</h4>
           </div>
         </div>
       </a>
@@ -79,7 +79,7 @@
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <ul class="list-group">
         <li class="list-group-item">Анонсы</li>
-        <li class="list-group-item">Действующие выставки</li>
+        <li class="list-group-item">Діючі виставки</li>
       </ul>
       <%= yield(:events) %>
     </div>

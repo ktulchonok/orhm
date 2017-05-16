@@ -301,10 +301,12 @@ body.desktop {
       color: #000;
       text-decoration: none; }
       body.desktop .news-title a:hover {
-        color: #3aa3a4;
+        font-weight: bold;
         text-decoration: none; }
     body.desktop .news-title span {
       font-size: .8em; }
+  body.desktop .news-author {
+    color: #3aa3a4; }
   body.desktop .news-content {
     margin: 0 0 10px 15px;
     font-family: 'Raleway', serif;
@@ -361,7 +363,7 @@ body.desktop {
         body.desktop #exposition div div:last-child {
           border-bottom: none; }
         body.desktop #exposition div div a {
-          font: 18px serif;
+          font: italic 17px Candara, serif;
           color: black; }
           body.desktop #exposition div div a:hover {
             color: #3aa3a4;
